@@ -144,6 +144,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+# 配置静态文件加载路径(拼接路径)
+STATICFILES_DIRS = [os.path.join(BASE_DIR,'staic')]
+
+
 # 配置Redis数据库
 CACHES = {
     "default": { # 默认
