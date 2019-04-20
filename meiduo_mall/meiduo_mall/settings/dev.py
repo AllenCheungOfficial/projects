@@ -16,7 +16,7 @@ import os, sys
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # 导入'users'应用的导包路径
-sys.path.insert(0,os.path.join(BASE_DIR,'apps'))
+sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
@@ -29,7 +29,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -40,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # 'users.apps.UsersConfig', # 用户模块应用
-    'users', # 简写
+    'users',  # 简写
 ]
 
 MIDDLEWARE = [
@@ -55,11 +54,10 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'meiduo_mall.urls'
 
-
 # 配置Jinja2模板引擎
 TEMPLATES = [
 
-{
+    {
         'BACKEND': 'django.template.backends.jinja2.Jinja2',  # jinja2模板引擎
         'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
@@ -92,7 +90,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'meiduo_mall.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
@@ -101,14 +98,13 @@ WSGI_APPLICATION = 'meiduo_mall.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST':'127.0.0.1', # 数据库主机
-        'PORT':3306, # 数据库端口
-        'USER':'Mercer', # 数据库用户名
-        'PASSWORD':'zhangyan960903', # 数据库用户密码
-        'NAME': 'meiduo_mall', # 数据库名字
+        'HOST': '127.0.0.1',  # 数据库主机
+        'PORT': 3306,  # 数据库端口
+        'USER': 'Mercer',  # 数据库用户名
+        'PASSWORD': 'zhangyan960903',  # 数据库用户密码
+        'NAME': 'meiduo_mall',  # 数据库名字
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
@@ -128,7 +124,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
 
@@ -142,30 +137,36 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
 
 # 配置静态文件加载路径(拼接路径)
-STATICFILES_DIRS = [os.path.join(BASE_DIR,'staic')]
-
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'staic')]
 
 # 配置Redis数据库
 CACHES = {
-    "default": { # 默认
+    "default": {  # 默认
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://172.0.0.1:6379/0",
+        "LOCATION": "redis://192.168.56.134:6379/0",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
     },
 
     # 使用名为"session"的Redis配置项存储session数据。
-    "session": { # session
+    "session": {  # session
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://172.0.0.1:6379/1",
+        "LOCATION": "redis://192.168.56.134:6379/1",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+
+    "verify_code": {  # 图型验证码
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://192.168.56.134:6379/2",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
@@ -215,7 +216,6 @@ LOGGING = {
         },
     }
 }
-
 
 # 指定本项目用户模型类
 AUTH_USER_MODEL = 'users.User'
