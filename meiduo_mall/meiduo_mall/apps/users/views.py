@@ -1,13 +1,14 @@
-import re
-
 from django.contrib.auth import login
 from django.shortcuts import render, redirect
 from django.urls import reverse
 from django.views import View
 from django import http
+import re
+
+from meiduo_mall.utils.response_code import RETCODE
 from .models import User
 from django.db import DatabaseError
-from meiduo_mall.utils.response_code import RETCODE
+from django_redis import get_redis_connection
 
 
 class MobileCountView(View):
@@ -83,6 +84,9 @@ class RegisterView(View):
         # 手机号码
         mobile = request.POST.get('mobile')
 
+        # TODO sms_code
+        sms_code_client = request.POST.get('sms_code')
+
         # 是否同意用户协议
         allow = request.POST.get('allow')
 
@@ -110,8 +114,25 @@ class RegisterView(View):
         # TODO sms_code 短信验证码 没接收处理
 
         # 判断是否勾选用户协议
-        if allow != 'no':
+        if allow != 'on':
             return http.HttpResponseForbidden('请勾选用户协议')
+
+        # 增加的部分：校验sms_code短信验证码:
+        # 获取 redis 链接对象
+        redis_conn = get_redis_connection('verify_code')
+
+        # 从 redis 中获取保存的 sms_code
+        sms_code_server = redis_conn.get('sms_code_%s' % mobile)
+
+        # 判断 sms_code_server 是否存在
+        if sms_code_server is None:
+            # 不存在直接返回, 说明服务器的过期了, 超时
+            return render(request, 'register.html', {'sms_code_errmsg': '验证码失效'})
+
+        # 如果 sms_code_server 存在, 则对比两者:
+        if sms_code_server.decode() != sms_code_client:
+            # 对比失败, 说明短信验证码有问题, 直接返回:
+            return render(request, 'register.html', {'sms_code_errmsg': '输入验证码的有误'})
 
         # 3.保持注册数据
         try:
@@ -125,8 +146,7 @@ class RegisterView(View):
         # 实现状态保持
         # request.session[] = 'value'
         login(request, user)
-
         # 4.返回前端 TODO
         # return http.HttpResponse('注册成功，应该跳转到首页')
         # 响应注册结果：重定向到首页
-        return redirect(reverse('contents:inex'))
+        return redirect(reverse('contents:index'))

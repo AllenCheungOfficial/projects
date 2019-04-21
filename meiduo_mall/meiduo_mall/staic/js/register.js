@@ -112,7 +112,7 @@ var vm = new Vue({
             }
         },
         // 检查图片验证码
-        check_image_code() {
+        check_image_code: function () {
             if (!this.image_code) {
                 this.error_image_code_message = '请填写图片验证码';
                 this.error_image_code = true;

@@ -8,7 +8,7 @@ class User(AbstractUser):
 
     # 在用户模型类中增加 mobile 字段
     # models.CharField这个位置指出了当前字段的类型:
-    models.CharField(max_length=11,unique=True,verbose_name='手机号')
+    mobile = models.CharField(max_length=11, unique=True, verbose_name='手机号')
 
     # 对当前表进行相关设置:
     class Meta:
