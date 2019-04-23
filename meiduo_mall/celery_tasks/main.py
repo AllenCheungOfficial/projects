@@ -2,14 +2,11 @@
 from celery import Celery
 import os
 
-
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "meiduo_mall.settings.dev")
 
 # 创建 celery 实例
 # 需要添加一个参数,是个字符串, 内容随意添加
 celery_app = Celery('meiduo')
-
-
 
 # 给 celery 添加配置
 # 里面的参数为我们创建的 config 配置文件:

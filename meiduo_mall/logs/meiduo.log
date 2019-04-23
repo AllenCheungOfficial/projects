@@ -4466,3 +4466,887 @@ INFO 2019-04-21 15:07:24,903 basehttp 124 "POST /register/ HTTP/1.1" 302 0
 INFO 2019-04-21 15:07:24,943 basehttp 124 "GET / HTTP/1.1" 200 24706
 WARNING 2019-04-21 15:07:25,826 base 152 Not Found: /carts/simple/
 WARNING 2019-04-21 15:07:25,827 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3077
+INFO 2019-04-23 00:36:19,791 basehttp 124 "GET /register/ HTTP/1.1" 200 5373
+INFO 2019-04-23 00:36:19,887 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-23 00:36:20,200 basehttp 124 "GET /image_codes/ce294086-e975-413c-89af-fb08edfb8cbc/ HTTP/1.1" 200 3000
+INFO 2019-04-23 00:36:23,147 basehttp 124 "GET /usernames/admin/count/ HTTP/1.1" 200 41
+INFO 2019-04-23 00:36:36,367 basehttp 124 "GET /usernames/mercerZ/count/ HTTP/1.1" 200 41
+INFO 2019-04-23 00:37:08,338 basehttp 124 "GET /mobiles/15851467179/count/ HTTP/1.1" 200 41
+INFO 2019-04-23 00:37:25,846 basehttp 124 "GET /image_codes/a104d7da-e226-4526-a87b-e7738c3eec5f/ HTTP/1.1" 200 3159
+INFO 2019-04-23 00:37:36,546 views 65 973580
+INFO 2019-04-23 00:37:36,558 basehttp 124 "GET /mobiles/15851467179/count/ HTTP/1.1" 200 41
+INFO 2019-04-23 00:37:36,861 basehttp 124 "GET /sms_codes/15851467179/?image_code=S3ZL&image_code_id=a104d7da-e226-4526-a87b-e7738c3eec5f HTTP/1.1" 200 29
+INFO 2019-04-23 00:38:01,013 basehttp 124 "GET /usernames/mercerZ/count/ HTTP/1.1" 200 41
+INFO 2019-04-23 00:38:01,022 basehttp 124 "GET /mobiles/15851467179/count/ HTTP/1.1" 200 41
+INFO 2019-04-23 00:38:01,110 basehttp 124 "POST /register/ HTTP/1.1" 302 0
+INFO 2019-04-23 00:38:01,125 basehttp 124 "GET / HTTP/1.1" 200 24706
+WARNING 2019-04-23 00:38:01,493 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 00:38:01,494 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3077
+INFO 2019-04-23 07:06:45,943 basehttp 124 "GET /login/ HTTP/1.1" 200 3161
+WARNING 2019-04-23 07:06:46,395 base 152 Not Found: /staic/images/logo02.png
+WARNING 2019-04-23 07:06:46,397 basehttp 124 "GET /staic/images/logo02.png HTTP/1.1" 404 3277
+WARNING 2019-04-23 07:06:46,400 base 152 Not Found: /staic/js/common.js
+WARNING 2019-04-23 07:06:46,401 basehttp 124 "GET /staic/js/common.js HTTP/1.1" 404 3262
+WARNING 2019-04-23 07:06:46,422 base 152 Not Found: /staic/js/login.js
+WARNING 2019-04-23 07:06:46,423 basehttp 124 "GET /staic/js/login.js HTTP/1.1" 404 3259
+WARNING 2019-04-23 07:06:46,577 base 152 Not Found: /staic/js/common.js
+WARNING 2019-04-23 07:06:46,577 basehttp 124 "GET /staic/js/common.js HTTP/1.1" 404 3262
+WARNING 2019-04-23 07:06:46,615 base 152 Not Found: /staic/js/login.js
+WARNING 2019-04-23 07:06:46,617 basehttp 124 "GET /staic/js/login.js HTTP/1.1" 404 3259
+WARNING 2019-04-23 07:06:51,823 base 152 Not Found: /login/index.html
+WARNING 2019-04-23 07:06:51,823 basehttp 124 "GET /login/index.html HTTP/1.1" 404 3256
+INFO 2019-04-23 07:08:36,437 basehttp 124 "GET /login/ HTTP/1.1" 200 3250
+WARNING 2019-04-23 07:08:36,547 base 152 Not Found: /staic/js/common.js
+WARNING 2019-04-23 07:08:36,547 basehttp 124 "GET /staic/js/common.js HTTP/1.1" 404 3262
+WARNING 2019-04-23 07:08:36,583 base 152 Not Found: /staic/js/login.js
+WARNING 2019-04-23 07:08:36,583 basehttp 124 "GET /staic/js/login.js HTTP/1.1" 404 3259
+WARNING 2019-04-23 07:08:36,603 base 152 Not Found: /staic/js/common.js
+WARNING 2019-04-23 07:08:36,606 basehttp 124 "GET /staic/js/common.js HTTP/1.1" 404 3262
+WARNING 2019-04-23 07:08:36,624 base 152 Not Found: /staic/js/login.js
+WARNING 2019-04-23 07:08:36,624 basehttp 124 "GET /staic/js/login.js HTTP/1.1" 404 3259
+INFO 2019-04-23 07:56:03,609 basehttp 124 "GET / HTTP/1.1" 200 24706
+WARNING 2019-04-23 07:56:04,336 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 07:56:04,337 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3247
+INFO 2019-04-23 07:56:12,022 basehttp 124 "GET /register/ HTTP/1.1" 200 5373
+INFO 2019-04-23 07:56:12,067 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-23 07:56:12,380 basehttp 124 "GET /image_codes/d58f3e09-8601-4e56-b197-5c9285e8c53e/ HTTP/1.1" 200 3221
+INFO 2019-04-23 07:56:17,158 basehttp 124 "GET /usernames/admin/count/ HTTP/1.1" 200 41
+INFO 2019-04-23 07:56:24,226 basehttp 124 "GET / HTTP/1.1" 200 24706
+WARNING 2019-04-23 07:56:24,513 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 07:56:24,514 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3247
+WARNING 2019-04-23 07:56:26,075 basehttp 124 "GET /static/login.html HTTP/1.1" 404 1643
+WARNING 2019-04-23 07:56:35,263 basehttp 124 "GET /static/login.html HTTP/1.1" 404 1643
+WARNING 2019-04-23 07:57:02,442 base 152 Not Found: /login.html
+WARNING 2019-04-23 07:57:02,442 basehttp 124 "GET /login.html HTTP/1.1" 404 3238
+WARNING 2019-04-23 07:58:28,869 base 152 Not Found: /login.html
+WARNING 2019-04-23 07:58:28,869 basehttp 124 "GET /login.html HTTP/1.1" 404 3238
+INFO 2019-04-23 07:59:45,841 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-04-23 08:00:03,241 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-04-23 08:00:03,256 basehttp 124 "GET / HTTP/1.1" 200 24706
+WARNING 2019-04-23 08:00:03,542 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 08:00:03,543 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3247
+INFO 2019-04-23 08:02:11,413 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+WARNING 2019-04-23 08:02:28,256 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-23 08:05:15,875 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-04-23 08:05:15,886 basehttp 124 "GET / HTTP/1.1" 200 24706
+WARNING 2019-04-23 08:05:16,001 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+WARNING 2019-04-23 08:05:16,122 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 08:05:16,123 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3247
+INFO 2019-04-23 09:30:22,314 basehttp 124 "GET / HTTP/1.1" 200 24706
+INFO 2019-04-23 09:30:22,408 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-04-23 09:30:22,409 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-04-23 09:30:22,424 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 75
+INFO 2019-04-23 09:30:22,425 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-04-23 09:30:22,431 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-04-23 09:30:22,435 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-04-23 09:30:22,438 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-04-23 09:30:22,456 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2019-04-23 09:30:22,495 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2019-04-23 09:30:22,528 basehttp 124 "GET /static/js/index.js HTTP/1.1" 200 1727
+INFO 2019-04-23 09:30:22,579 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2019-04-23 09:30:22,586 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-04-23 09:30:22,624 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2019-04-23 09:30:22,633 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2019-04-23 09:30:22,638 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2019-04-23 09:30:22,640 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2019-04-23 09:30:22,642 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2019-04-23 09:30:22,643 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2019-04-23 09:30:22,645 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2019-04-23 09:30:22,663 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2019-04-23 09:30:22,675 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2019-04-23 09:30:22,676 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2019-04-23 09:30:22,679 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2019-04-23 09:30:22,681 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2019-04-23 09:30:22,684 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2019-04-23 09:30:22,685 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2019-04-23 09:30:23,022 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 09:30:23,024 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3247
+WARNING 2019-04-23 09:30:23,127 base 152 Not Found: /favicon.ico
+WARNING 2019-04-23 09:30:23,127 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3241
+INFO 2019-04-23 09:30:32,870 basehttp 124 "GET /login HTTP/1.1" 301 0
+INFO 2019-04-23 09:30:32,909 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-04-23 09:30:32,926 basehttp 124 "GET /static/js/login.js HTTP/1.1" 200 5212
+INFO 2019-04-23 09:30:32,929 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2019-04-23 09:30:32,976 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2019-04-23 09:30:32,977 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2019-04-23 09:30:32,986 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2019-04-23 09:30:37,121 basehttp 124 "POST /login/ HTTP/1.1" 200 4312
+INFO 2019-04-23 09:30:49,689 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-04-23 09:30:49,695 basehttp 124 "GET / HTTP/1.1" 200 24706
+WARNING 2019-04-23 09:30:49,924 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 09:30:49,924 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3247
+INFO 2019-04-23 09:31:25,556 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-04-23 09:31:25,560 basehttp 124 "GET / HTTP/1.1" 200 24706
+WARNING 2019-04-23 09:31:25,724 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 09:31:25,725 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3247
+INFO 2019-04-23 09:31:27,699 basehttp 124 "GET /static/cart.html HTTP/1.1" 200 4611
+INFO 2019-04-23 09:31:27,720 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 200 18210
+INFO 2019-04-23 09:31:29,294 basehttp 124 "GET /static/user_center_info.html HTTP/1.1" 200 5354
+INFO 2019-04-23 09:31:29,315 basehttp 124 "GET /static/images/goods/goods006.jpg HTTP/1.1" 200 6836
+INFO 2019-04-23 09:31:29,315 basehttp 124 "GET /static/images/goods/goods007.jpg HTTP/1.1" 200 3936
+INFO 2019-04-23 09:31:29,321 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 200 4692
+INFO 2019-04-23 09:31:29,327 basehttp 124 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2019-04-23 09:31:29,327 basehttp 124 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+WARNING 2019-04-23 09:31:30,874 base 152 Not Found: /templates/register.html
+WARNING 2019-04-23 09:31:30,875 basehttp 124 "GET /templates/register.html HTTP/1.1" 404 3277
+WARNING 2019-04-23 09:31:37,768 base 152 Not Found: /templates/register.html
+WARNING 2019-04-23 09:31:37,769 basehttp 124 "GET /templates/register.html HTTP/1.1" 404 3277
+WARNING 2019-04-23 09:31:46,255 base 152 Not Found: /register.html
+WARNING 2019-04-23 09:31:46,256 basehttp 124 "GET /register.html HTTP/1.1" 404 3247
+INFO 2019-04-23 10:45:46,563 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+WARNING 2019-04-23 10:45:46,835 base 152 Not Found: /favicon.ico
+WARNING 2019-04-23 10:45:46,836 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3241
+INFO 2019-04-23 10:45:48,860 basehttp 124 "POST /login/ HTTP/1.1" 200 4312
+ERROR 2019-04-23 11:01:43,178 exception 135 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/apps/users/views.py", line 60, in post
+    if uesr is None:
+NameError: name 'uesr' is not defined
+ERROR 2019-04-23 11:01:46,237 basehttp 124 "POST /login/ HTTP/1.1" 500 82904
+ERROR 2019-04-23 11:01:56,976 exception 135 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/apps/contents/views.py", line 15, in get
+    return render(request, 'index.html')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/templates/index.html", line 24, in top-level template code
+    <a href="{{ url('users:logout') }}">退出</a>
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'logout' not found. 'logout' is not a valid view function or pattern name.
+ERROR 2019-04-23 11:01:57,068 basehttp 124 "GET / HTTP/1.1" 500 130613
+ERROR 2019-04-23 11:04:50,935 exception 135 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/apps/contents/views.py", line 15, in get
+    return render(request, 'index.html')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/templates/index.html", line 24, in top-level template code
+    <a href="{{ url('users:logout') }}">退出</a>
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'logout' not found. 'logout' is not a valid view function or pattern name.
+ERROR 2019-04-23 11:04:51,058 basehttp 124 "GET / HTTP/1.1" 500 130613
+INFO 2019-04-23 11:04:58,437 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+ERROR 2019-04-23 11:05:36,531 exception 135 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/apps/users/views.py", line 62, in post
+    if uesr is None:
+NameError: name 'uesr' is not defined
+ERROR 2019-04-23 11:05:36,573 basehttp 124 "POST /login/ HTTP/1.1" 500 82456
+ERROR 2019-04-23 11:06:35,560 exception 135 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django_redis/cache.py", line 32, in _decorator
+    return method(self, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django_redis/cache.py", line 124, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django_redis/client/default.py", line 478, in has_key
+    raise ConnectionInterrupted(connection=client, parent=e)
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 113 connecting to 192.168.56.134:6379. No route to host.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/apps/users/views.py", line 64, in post
+    login(request, user)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/auth/__init__.py", line 140, in login
+    request.session.cycle_key()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 311, in cycle_key
+    self.create()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/sessions/backends/cache.py", line 44, in create
+    self._session_key = self._get_new_session_key()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 164, in _get_new_session_key
+    if not self.exists(session_key):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/sessions/backends/cache.py", line 71, in exists
+    return session_key and (self.cache_key_prefix + session_key) in self._cache
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/cache/backends/base.py", line 203, in __contains__
+    return self.has_key(key)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django_redis/cache.py", line 39, in _decorator
+    raise e.parent
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django_redis/client/default.py", line 476, in has_key
+    return client.exists(key) == 1
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1239, in exists
+    return self.execute_command('EXISTS', *names)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 113 connecting to 192.168.56.134:6379. No route to host.
+ERROR 2019-04-23 11:06:35,626 basehttp 124 "POST /login/ HTTP/1.1" 500 145898
+ERROR 2019-04-23 11:10:12,998 exception 135 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/apps/contents/views.py", line 15, in get
+    return render(request, 'index.html')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/templates/index.html", line 24, in top-level template code
+    <a href="{{ url('users:logout') }}">退出</a>
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'logout' not found. 'logout' is not a valid view function or pattern name.
+ERROR 2019-04-23 11:10:13,110 basehttp 124 "GET / HTTP/1.1" 500 130613
+ERROR 2019-04-23 11:10:49,783 exception 135 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/apps/contents/views.py", line 15, in get
+    return render(request, 'index.html')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/templates/index.html", line 24, in top-level template code
+    <a href="{{ url('users:logout') }}">退出</a>
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'logout' not found. 'logout' is not a valid view function or pattern name.
+ERROR 2019-04-23 11:10:49,839 basehttp 124 "GET / HTTP/1.1" 500 130741
+INFO 2019-04-23 11:10:52,864 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+ERROR 2019-04-23 11:11:09,252 exception 135 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django_redis/cache.py", line 32, in _decorator
+    return method(self, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django_redis/cache.py", line 124, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django_redis/client/default.py", line 478, in has_key
+    raise ConnectionInterrupted(connection=client, parent=e)
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 113 connecting to 192.168.56.134:6379. No route to host.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/apps/users/views.py", line 64, in post
+    login(request, user)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/auth/__init__.py", line 140, in login
+    request.session.cycle_key()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 311, in cycle_key
+    self.create()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/sessions/backends/cache.py", line 44, in create
+    self._session_key = self._get_new_session_key()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 164, in _get_new_session_key
+    if not self.exists(session_key):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/sessions/backends/cache.py", line 71, in exists
+    return session_key and (self.cache_key_prefix + session_key) in self._cache
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/cache/backends/base.py", line 203, in __contains__
+    return self.has_key(key)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django_redis/cache.py", line 39, in _decorator
+    raise e.parent
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django_redis/client/default.py", line 476, in has_key
+    return client.exists(key) == 1
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1239, in exists
+    return self.execute_command('EXISTS', *names)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 113 connecting to 192.168.56.134:6379. No route to host.
+ERROR 2019-04-23 11:11:09,253 exception 135 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django_redis/cache.py", line 32, in _decorator
+    return method(self, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django_redis/cache.py", line 124, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django_redis/client/default.py", line 478, in has_key
+    raise ConnectionInterrupted(connection=client, parent=e)
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 113 connecting to 192.168.56.134:6379. No route to host.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/apps/users/views.py", line 64, in post
+    login(request, user)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/auth/__init__.py", line 140, in login
+    request.session.cycle_key()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 311, in cycle_key
+    self.create()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/sessions/backends/cache.py", line 44, in create
+    self._session_key = self._get_new_session_key()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 164, in _get_new_session_key
+    if not self.exists(session_key):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/sessions/backends/cache.py", line 71, in exists
+    return session_key and (self.cache_key_prefix + session_key) in self._cache
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/cache/backends/base.py", line 203, in __contains__
+    return self.has_key(key)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django_redis/cache.py", line 39, in _decorator
+    raise e.parent
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django_redis/client/default.py", line 476, in has_key
+    return client.exists(key) == 1
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1239, in exists
+    return self.execute_command('EXISTS', *names)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 113 connecting to 192.168.56.134:6379. No route to host.
+ERROR 2019-04-23 11:11:09,334 basehttp 124 "POST /login/ HTTP/1.1" 500 145898
+ERROR 2019-04-23 11:11:09,380 basehttp 124 "POST /login/ HTTP/1.1" 500 145898
+ERROR 2019-04-23 11:48:06,390 exception 135 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/apps/contents/views.py", line 15, in get
+    return render(request, 'index.html')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/templates/index.html", line 24, in top-level template code
+    <a href="{{ url('users:logout') }}">退出</a>
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'logout' not found. 'logout' is not a valid view function or pattern name.
+ERROR 2019-04-23 11:48:06,469 basehttp 124 "GET / HTTP/1.1" 500 130613
+INFO 2019-04-23 11:48:27,084 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-04-23 11:48:39,321 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+ERROR 2019-04-23 11:48:39,345 exception 135 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/apps/contents/views.py", line 15, in get
+    return render(request, 'index.html')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/templates/index.html", line 24, in top-level template code
+    <a href="{{ url('users:logout') }}">退出</a>
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'logout' not found. 'logout' is not a valid view function or pattern name.
+ERROR 2019-04-23 11:48:39,412 basehttp 124 "GET / HTTP/1.1" 500 131304
+INFO 2019-04-23 11:50:26,465 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-04-23 11:50:40,704 basehttp 124 "POST /login/ HTTP/1.1" 200 4312
+INFO 2019-04-23 11:50:47,725 basehttp 124 "POST /login/ HTTP/1.1" 200 4312
+INFO 2019-04-23 11:51:00,043 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+ERROR 2019-04-23 11:51:00,063 exception 135 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/apps/contents/views.py", line 15, in get
+    return render(request, 'index.html')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/templates/index.html", line 24, in top-level template code
+    <a href="{{ url('users:logout') }}">退出</a>
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'logout' not found. 'logout' is not a valid view function or pattern name.
+ERROR 2019-04-23 11:51:00,134 basehttp 124 "GET / HTTP/1.1" 500 131304
+ERROR 2019-04-23 11:52:07,351 exception 135 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/apps/contents/views.py", line 15, in get
+    return render(request, 'index.html')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/templates/index.html", line 24, in top-level template code
+    <a href="{{ url('users:logout') }}">退出</a>
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'logout' not found. 'logout' is not a valid view function or pattern name.
+ERROR 2019-04-23 11:52:07,430 basehttp 124 "GET / HTTP/1.1" 500 131304
+ERROR 2019-04-23 11:52:16,612 exception 135 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/apps/contents/views.py", line 15, in get
+    return render(request, 'index.html')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/templates/index.html", line 24, in top-level template code
+    <a href="{{ url('users:logout') }}">退出</a>
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'logout' not found. 'logout' is not a valid view function or pattern name.
+ERROR 2019-04-23 11:52:16,678 basehttp 124 "GET / HTTP/1.1" 500 131304
+ERROR 2019-04-23 11:52:38,489 exception 135 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/apps/contents/views.py", line 15, in get
+    return render(request, 'index.html')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/templates/index.html", line 24, in top-level template code
+    <a href="{{ url('users:logout') }}">退出</a>
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'logout' not found. 'logout' is not a valid view function or pattern name.
+ERROR 2019-04-23 11:52:38,581 basehttp 124 "GET / HTTP/1.1" 500 131304
+INFO 2019-04-23 11:53:22,200 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-04-23 11:53:35,600 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-04-23 11:53:35,614 basehttp 124 "GET / HTTP/1.1" 200 24706
+WARNING 2019-04-23 11:53:36,002 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 11:53:36,003 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3247
+WARNING 2019-04-23 11:53:54,471 basehttp 124 "GET /static/login.html HTTP/1.1" 404 1643
+INFO 2019-04-23 11:59:15,627 basehttp 124 "GET / HTTP/1.1" 200 34005
+INFO 2019-04-23 11:59:15,728 basehttp 124 "GET /static/js/base.js HTTP/1.1" 200 1016
+WARNING 2019-04-23 11:59:16,073 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 11:59:16,074 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3247
+INFO 2019-04-23 12:02:26,148 basehttp 124 "GET / HTTP/1.1" 200 34029
+WARNING 2019-04-23 12:02:26,275 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 12:02:26,276 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3247
+INFO 2019-04-23 12:02:32,640 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-04-23 12:02:45,112 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-04-23 12:02:45,118 basehttp 124 "GET / HTTP/1.1" 200 34029
+WARNING 2019-04-23 12:02:45,540 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 12:02:45,546 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3247
+INFO 2019-04-23 12:05:13,692 basehttp 124 "GET / HTTP/1.1" 200 34026
+WARNING 2019-04-23 12:05:13,896 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 12:05:13,897 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3247
+INFO 2019-04-23 12:06:12,993 basehttp 124 "GET / HTTP/1.1" 200 34026
+WARNING 2019-04-23 12:06:13,185 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 12:06:13,185 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3247
+INFO 2019-04-23 12:20:40,455 basehttp 124 "GET / HTTP/1.1" 200 34104
+WARNING 2019-04-23 12:20:40,885 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 12:20:40,886 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3419
+INFO 2019-04-23 12:20:53,537 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2019-04-23 12:20:53,550 basehttp 124 "GET / HTTP/1.1" 200 34104
+WARNING 2019-04-23 12:20:53,718 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 12:20:53,719 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3419
+INFO 2019-04-23 12:20:55,232 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-04-23 12:21:05,988 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-04-23 12:21:05,993 basehttp 124 "GET / HTTP/1.1" 200 34104
+WARNING 2019-04-23 12:21:06,235 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 12:21:06,237 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3419
+INFO 2019-04-23 12:23:21,887 basehttp 124 "GET / HTTP/1.1" 200 34104
+WARNING 2019-04-23 12:23:22,213 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 12:23:22,214 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3419
+INFO 2019-04-23 12:23:23,897 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2019-04-23 12:23:23,910 basehttp 124 "GET / HTTP/1.1" 200 34104
+WARNING 2019-04-23 12:23:24,074 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 12:23:24,074 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3419
+INFO 2019-04-23 12:23:25,422 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-04-23 12:24:01,941 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-04-23 12:24:01,975 basehttp 124 "GET / HTTP/1.1" 200 34104
+WARNING 2019-04-23 12:24:02,341 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 12:24:02,342 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3419
+INFO 2019-04-23 12:24:04,200 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2019-04-23 12:24:04,204 basehttp 124 "GET / HTTP/1.1" 200 34104
+WARNING 2019-04-23 12:24:04,351 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 12:24:04,352 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3419
+INFO 2019-04-23 12:24:23,687 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-04-23 12:24:35,075 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-04-23 12:24:35,095 basehttp 124 "GET / HTTP/1.1" 200 34104
+WARNING 2019-04-23 12:24:35,318 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 12:24:35,320 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3419
+INFO 2019-04-23 12:24:36,672 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2019-04-23 12:24:36,680 basehttp 124 "GET / HTTP/1.1" 200 34104
+WARNING 2019-04-23 12:24:36,838 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 12:24:36,839 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3419
+INFO 2019-04-23 12:25:28,301 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-04-23 12:25:46,012 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-04-23 12:25:46,037 basehttp 124 "GET / HTTP/1.1" 200 34104
+WARNING 2019-04-23 12:25:46,270 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 12:25:46,271 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3419
+INFO 2019-04-23 12:25:48,120 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2019-04-23 12:25:48,124 basehttp 124 "GET / HTTP/1.1" 200 34104
+WARNING 2019-04-23 12:25:48,260 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 12:25:48,261 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3419
+INFO 2019-04-23 12:41:04,431 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-04-23 12:41:16,606 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-04-23 12:41:16,637 basehttp 124 "GET / HTTP/1.1" 200 34104
+WARNING 2019-04-23 12:41:17,057 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 12:41:17,059 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3419
+INFO 2019-04-23 12:41:23,198 basehttp 124 "GET / HTTP/1.1" 200 34104
+WARNING 2019-04-23 12:41:23,367 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 12:41:23,368 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3419
+WARNING 2019-04-23 12:41:25,448 basehttp 124 "GET /static/user_center_info.html HTTP/1.1" 404 1676
+INFO 2019-04-23 13:07:53,375 basehttp 124 "GET / HTTP/1.1" 200 34104
+WARNING 2019-04-23 13:07:53,873 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 13:07:53,876 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3587
+INFO 2019-04-23 13:07:57,966 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2019-04-23 13:07:57,992 basehttp 124 "GET / HTTP/1.1" 200 34104
+WARNING 2019-04-23 13:07:58,206 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 13:07:58,214 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3587
+INFO 2019-04-23 13:07:59,343 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-04-23 13:10:03,354 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-04-23 13:10:15,013 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-04-23 13:10:20,898 basehttp 124 "GET / HTTP/1.1" 200 34178
+WARNING 2019-04-23 13:10:21,200 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 13:10:21,200 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3587
+INFO 2019-04-23 13:10:23,921 basehttp 124 "GET /info/ HTTP/1.1" 302 0
+INFO 2019-04-23 13:10:23,935 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 4197
+INFO 2019-04-23 13:10:37,823 basehttp 124 "POST /login/?next=/info/ HTTP/1.1" 302 0
+INFO 2019-04-23 13:10:37,833 basehttp 124 "GET / HTTP/1.1" 200 34178
+WARNING 2019-04-23 13:10:38,030 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 13:10:38,030 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3587
+INFO 2019-04-23 13:10:41,132 basehttp 124 "GET /info/ HTTP/1.1" 200 5371
+WARNING 2019-04-23 13:10:41,170 base 152 Not Found: /staic/css/reset.css
+WARNING 2019-04-23 13:10:41,172 basehttp 124 "GET /staic/css/reset.css HTTP/1.1" 404 3605
+WARNING 2019-04-23 13:10:41,179 base 152 Not Found: /staic/css/main.css
+WARNING 2019-04-23 13:10:41,181 basehttp 124 "GET /staic/css/main.css HTTP/1.1" 404 3602
+WARNING 2019-04-23 13:10:41,186 base 152 Not Found: /staic/js/host.js
+WARNING 2019-04-23 13:10:41,187 basehttp 124 "GET /staic/js/host.js HTTP/1.1" 404 3596
+WARNING 2019-04-23 13:10:41,206 base 152 Not Found: /staic/js/vue-2.5.16.js
+WARNING 2019-04-23 13:10:41,212 basehttp 124 "GET /staic/js/vue-2.5.16.js HTTP/1.1" 404 3614
+WARNING 2019-04-23 13:10:41,217 base 152 Not Found: /staic/js/axios-0.18.0.min.js
+WARNING 2019-04-23 13:10:41,219 basehttp 124 "GET /staic/js/axios-0.18.0.min.js HTTP/1.1" 404 3632
+WARNING 2019-04-23 13:10:41,245 base 152 Not Found: /staic/images/logo.png
+WARNING 2019-04-23 13:10:41,245 basehttp 124 "GET /staic/images/logo.png HTTP/1.1" 404 3611
+WARNING 2019-04-23 13:10:41,258 base 152 Not Found: /staic/images/goods/goods003.jpg
+WARNING 2019-04-23 13:10:41,258 basehttp 124 "GET /staic/images/goods/goods003.jpg HTTP/1.1" 404 3641
+WARNING 2019-04-23 13:10:41,270 base 152 Not Found: /staic/js/user_center_info.js
+WARNING 2019-04-23 13:10:41,280 basehttp 124 "GET /staic/js/user_center_info.js HTTP/1.1" 404 3632
+WARNING 2019-04-23 13:10:41,311 base 152 Not Found: /staic/images/goods/goods004.jpg
+WARNING 2019-04-23 13:10:41,312 basehttp 124 "GET /staic/images/goods/goods004.jpg HTTP/1.1" 404 3641
+WARNING 2019-04-23 13:10:41,322 base 152 Not Found: /staic/images/goods/goods005.jpg
+WARNING 2019-04-23 13:10:41,322 basehttp 124 "GET /staic/images/goods/goods005.jpg HTTP/1.1" 404 3641
+WARNING 2019-04-23 13:10:41,328 base 152 Not Found: /staic/images/goods/goods006.jpg
+WARNING 2019-04-23 13:10:41,331 basehttp 124 "GET /staic/images/goods/goods006.jpg HTTP/1.1" 404 3641
+WARNING 2019-04-23 13:10:41,338 base 152 Not Found: /staic/images/goods/goods007.jpg
+WARNING 2019-04-23 13:10:41,339 basehttp 124 "GET /staic/images/goods/goods007.jpg HTTP/1.1" 404 3641
+INFO 2019-04-23 13:11:09,211 basehttp 124 "GET /info/ HTTP/1.1" 200 5371
+WARNING 2019-04-23 13:11:09,233 base 152 Not Found: /staic/css/reset.css
+WARNING 2019-04-23 13:11:09,238 base 152 Not Found: /staic/css/main.css
+WARNING 2019-04-23 13:11:09,244 basehttp 124 "GET /staic/css/reset.css HTTP/1.1" 404 3605
+WARNING 2019-04-23 13:11:09,246 base 152 Not Found: /staic/js/host.js
+WARNING 2019-04-23 13:11:09,253 base 152 Not Found: /staic/js/vue-2.5.16.js
+WARNING 2019-04-23 13:11:09,259 basehttp 124 "GET /staic/css/main.css HTTP/1.1" 404 3602
+WARNING 2019-04-23 13:11:09,258 base 152 Not Found: /staic/js/axios-0.18.0.min.js
+WARNING 2019-04-23 13:11:09,261 basehttp 124 "GET /staic/js/host.js HTTP/1.1" 404 3596
+WARNING 2019-04-23 13:11:09,263 basehttp 124 "GET /staic/js/vue-2.5.16.js HTTP/1.1" 404 3614
+WARNING 2019-04-23 13:11:09,267 base 152 Not Found: /staic/images/logo.png
+WARNING 2019-04-23 13:11:09,270 basehttp 124 "GET /staic/images/logo.png HTTP/1.1" 404 3611
+WARNING 2019-04-23 13:11:09,270 basehttp 124 "GET /staic/js/axios-0.18.0.min.js HTTP/1.1" 404 3632
+WARNING 2019-04-23 13:11:09,275 base 152 Not Found: /staic/images/goods/goods003.jpg
+WARNING 2019-04-23 13:11:09,276 basehttp 124 "GET /staic/images/goods/goods003.jpg HTTP/1.1" 404 3641
+WARNING 2019-04-23 13:11:09,291 base 152 Not Found: /staic/js/user_center_info.js
+WARNING 2019-04-23 13:11:09,302 basehttp 124 "GET /staic/js/user_center_info.js HTTP/1.1" 404 3632
+WARNING 2019-04-23 13:11:09,308 base 152 Not Found: /staic/images/goods/goods004.jpg
+WARNING 2019-04-23 13:11:09,310 basehttp 124 "GET /staic/images/goods/goods004.jpg HTTP/1.1" 404 3641
+WARNING 2019-04-23 13:11:09,322 base 152 Not Found: /staic/images/goods/goods006.jpg
+WARNING 2019-04-23 13:11:09,340 basehttp 124 "GET /staic/images/goods/goods006.jpg HTTP/1.1" 404 3641
+WARNING 2019-04-23 13:11:09,327 base 152 Not Found: /staic/images/goods/goods005.jpg
+WARNING 2019-04-23 13:11:09,341 basehttp 124 "GET /staic/images/goods/goods005.jpg HTTP/1.1" 404 3641
+WARNING 2019-04-23 13:11:09,338 base 152 Not Found: /staic/images/goods/goods007.jpg
+WARNING 2019-04-23 13:11:09,343 basehttp 124 "GET /staic/images/goods/goods007.jpg HTTP/1.1" 404 3641
+INFO 2019-04-23 13:13:20,847 basehttp 124 "GET /info/ HTTP/1.1" 200 5371
+WARNING 2019-04-23 13:13:20,873 base 152 Not Found: /staic/css/reset.css
+WARNING 2019-04-23 13:13:20,873 basehttp 124 "GET /staic/css/reset.css HTTP/1.1" 404 3605
+WARNING 2019-04-23 13:13:20,883 base 152 Not Found: /staic/css/main.css
+WARNING 2019-04-23 13:13:20,887 base 152 Not Found: /staic/js/host.js
+WARNING 2019-04-23 13:13:20,891 base 152 Not Found: /staic/js/vue-2.5.16.js
+WARNING 2019-04-23 13:13:20,895 base 152 Not Found: /staic/js/axios-0.18.0.min.js
+WARNING 2019-04-23 13:13:20,902 base 152 Not Found: /staic/images/logo.png
+WARNING 2019-04-23 13:13:20,909 base 152 Not Found: /staic/images/goods/goods003.jpg
+WARNING 2019-04-23 13:13:20,910 basehttp 124 "GET /staic/js/host.js HTTP/1.1" 404 3596
+WARNING 2019-04-23 13:13:20,912 basehttp 124 "GET /staic/js/vue-2.5.16.js HTTP/1.1" 404 3614
+WARNING 2019-04-23 13:13:20,913 basehttp 124 "GET /staic/js/axios-0.18.0.min.js HTTP/1.1" 404 3632
+WARNING 2019-04-23 13:13:20,917 basehttp 124 "GET /staic/css/main.css HTTP/1.1" 404 3602
+WARNING 2019-04-23 13:13:20,918 basehttp 124 "GET /staic/images/logo.png HTTP/1.1" 404 3611
+WARNING 2019-04-23 13:13:20,918 basehttp 124 "GET /staic/images/goods/goods003.jpg HTTP/1.1" 404 3641
+WARNING 2019-04-23 13:13:20,933 base 152 Not Found: /staic/js/vue-2.5.16.js
+WARNING 2019-04-23 13:13:20,934 basehttp 124 "GET /staic/js/vue-2.5.16.js HTTP/1.1" 404 3614
+WARNING 2019-04-23 13:13:20,944 base 152 Not Found: /staic/js/user_center_info.js
+WARNING 2019-04-23 13:13:20,950 base 152 Not Found: /staic/images/goods/goods004.jpg
+WARNING 2019-04-23 13:13:20,951 basehttp 124 "GET /staic/js/user_center_info.js HTTP/1.1" 404 3632
+WARNING 2019-04-23 13:13:20,956 base 152 Not Found: /staic/js/axios-0.18.0.min.js
+WARNING 2019-04-23 13:13:20,958 basehttp 124 "GET /staic/js/axios-0.18.0.min.js HTTP/1.1" 404 3632
+WARNING 2019-04-23 13:13:20,970 base 152 Not Found: /staic/images/goods/goods005.jpg
+WARNING 2019-04-23 13:13:20,970 basehttp 124 "GET /staic/images/goods/goods005.jpg HTTP/1.1" 404 3641
+WARNING 2019-04-23 13:13:20,972 basehttp 124 "GET /staic/images/goods/goods004.jpg HTTP/1.1" 404 3641
+WARNING 2019-04-23 13:13:20,995 base 152 Not Found: /staic/images/goods/goods006.jpg
+WARNING 2019-04-23 13:13:20,995 basehttp 124 "GET /staic/images/goods/goods006.jpg HTTP/1.1" 404 3641
+WARNING 2019-04-23 13:13:20,996 base 152 Not Found: /staic/js/user_center_info.js
+WARNING 2019-04-23 13:13:20,997 basehttp 124 "GET /staic/js/user_center_info.js HTTP/1.1" 404 3632
+WARNING 2019-04-23 13:13:21,005 base 152 Not Found: /staic/images/goods/goods007.jpg
+WARNING 2019-04-23 13:13:21,005 basehttp 124 "GET /staic/images/goods/goods007.jpg HTTP/1.1" 404 3641
+INFO 2019-04-23 13:13:57,548 basehttp 124 "GET /info/ HTTP/1.1" 200 6987
+WARNING 2019-04-23 13:14:26,776 base 152 Not Found: /info/user_center_info.html
+WARNING 2019-04-23 13:14:26,778 basehttp 124 "GET /info/user_center_info.html HTTP/1.1" 404 3626
+INFO 2019-04-23 13:22:55,353 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-04-23 13:23:15,773 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-04-23 13:23:15,800 basehttp 124 "GET / HTTP/1.1" 200 34178
+WARNING 2019-04-23 13:23:16,209 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 13:23:16,210 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3587
+INFO 2019-04-23 13:23:19,397 basehttp 124 "GET /info/ HTTP/1.1" 200 6987
+WARNING 2019-04-23 13:23:20,982 base 152 Not Found: /info/user_center_info.html
+WARNING 2019-04-23 13:23:20,983 basehttp 124 "GET /info/user_center_info.html HTTP/1.1" 404 3626
+WARNING 2019-04-23 13:23:35,501 base 152 Not Found: /info/register.html
+WARNING 2019-04-23 13:23:35,503 basehttp 124 "GET /info/register.html HTTP/1.1" 404 3602
+WARNING 2019-04-23 13:23:38,275 base 152 Not Found: /info/login.html
+WARNING 2019-04-23 13:23:38,275 basehttp 124 "GET /info/login.html HTTP/1.1" 404 3593
+INFO 2019-04-23 13:23:57,636 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2019-04-23 13:23:57,640 basehttp 124 "GET / HTTP/1.1" 200 34178
+WARNING 2019-04-23 13:23:57,793 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 13:23:57,794 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3587
+INFO 2019-04-23 13:23:59,627 basehttp 124 "GET /info/ HTTP/1.1" 302 0
+INFO 2019-04-23 13:23:59,640 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 4197
+INFO 2019-04-23 13:24:09,053 basehttp 124 "POST /login/?next=/info/ HTTP/1.1" 302 0
+INFO 2019-04-23 13:24:09,073 basehttp 124 "GET /info/ HTTP/1.1" 200 6987
+INFO 2019-04-23 13:24:49,740 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 4197
+INFO 2019-04-23 13:24:55,983 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-04-23 13:25:00,819 basehttp 124 "GET / HTTP/1.1" 200 34178
+WARNING 2019-04-23 13:25:01,271 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 13:25:01,271 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3587
+INFO 2019-04-23 13:25:04,122 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2019-04-23 13:25:04,127 basehttp 124 "GET / HTTP/1.1" 200 34178
+WARNING 2019-04-23 13:25:04,300 base 152 Not Found: /carts/simple/
+WARNING 2019-04-23 13:25:04,301 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3587
+INFO 2019-04-23 13:25:05,483 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-04-23 13:25:08,531 basehttp 124 "GET /register/ HTTP/1.1" 200 5373
+INFO 2019-04-23 13:25:08,563 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 17858
+INFO 2019-04-23 13:25:08,627 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-04-23 13:25:08,631 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2019-04-23 13:25:08,639 basehttp 124 "GET /image_codes/48546deb-ff1f-4409-9e33-45f38daabfe6/ HTTP/1.1" 200 3254
+INFO 2019-04-23 13:25:09,593 basehttp 124 "GET /usernames/admin/count/ HTTP/1.1" 200 41
+WARNING 2019-04-23 13:25:09,653 base 152 Not Found: /register/login.html
+WARNING 2019-04-23 13:25:09,654 basehttp 124 "GET /register/login.html HTTP/1.1" 404 3605

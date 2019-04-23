@@ -29,4 +29,7 @@ urlpatterns = [
 
     # verifications
     url(r'^', include('verifications.urls')),
+
+    # oauth
+    url(r'^', include('oauth.urls')),
 ]
