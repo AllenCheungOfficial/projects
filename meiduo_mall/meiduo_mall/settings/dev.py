@@ -27,10 +27,12 @@ SECRET_KEY = 'or&8ifl)ks$hvy&4=w-r1uqm%e(a%&q6u!wponq+z1c!u8c26i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ['*']
+# ALLOWED_HOSTS = ["www.meiduo.site", "127.0.0.1"]
 
 # Application definition
 
+# 添加应用
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -41,6 +43,8 @@ INSTALLED_APPS = [
     # 'users.apps.UsersConfig', # 用户模块应用
     'users',  # 简写
     'oauth',
+    # 添加 django-cors-headers 的配置内容, 使其可以进行cors跨域
+    'corsheaders',
 ]
 # 中间件
 MIDDLEWARE = [
@@ -52,6 +56,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    # 添加 django-cors-headers 的配置内容, 使其可以进行cors跨域
+    'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'meiduo_mall.urls'
@@ -228,3 +234,29 @@ AUTHENTICATION_BACKENDS = ['users.utils.UsernameMobileAuthBackend']
 # 登录用户才能访问, 否则访问如下路径：
 # 搭配 login_required 装饰器使用的
 LOGIN_URL = '/login/'
+
+# 第三方qq
+QQ_CLIENT_ID = '101518219'
+QQ_CLIENT_SECRET = '418d84ebdc7241efb79536886ae95224'
+QQ_REDIRECT_URI = 'http://www.meiduo.site:8000/oauth_callback'
+
+
+CORS_ORIGIN_WHITELIST = (
+    # 白名单:
+    '127.0.0.1:8080',
+    'localhost:8080',
+
+    '127.0.0.1:8081',
+    'localhost:8081',
+
+    'localhost:8000',
+    '127.0.0.1:8000',
+
+    'www.meiduo.site:8080',
+    'www.meiduo.site:8000',
+    'www.meiduo.site',
+
+    '172.128.16.238:8001',
+)
+# 允许白名单中的 host 跨域请求时携带 cookie
+CORS_ALLOW_CREDENTIALS = True

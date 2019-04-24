@@ -5350,3 +5350,354 @@ INFO 2019-04-23 13:25:08,639 basehttp 124 "GET /image_codes/48546deb-ff1f-4409-9
 INFO 2019-04-23 13:25:09,593 basehttp 124 "GET /usernames/admin/count/ HTTP/1.1" 200 41
 WARNING 2019-04-23 13:25:09,653 base 152 Not Found: /register/login.html
 WARNING 2019-04-23 13:25:09,654 basehttp 124 "GET /register/login.html HTTP/1.1" 404 3605
+INFO 2019-04-24 07:47:31,128 basehttp 124 "GET / HTTP/1.1" 200 34178
+WARNING 2019-04-24 07:47:31,521 base 152 Not Found: /carts/simple/
+WARNING 2019-04-24 07:47:31,522 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3754
+WARNING 2019-04-24 07:47:31,578 base 152 Not Found: /favicon.ico
+WARNING 2019-04-24 07:47:31,579 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3748
+INFO 2019-04-24 07:47:34,272 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+INFO 2019-04-24 07:47:35,497 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+INFO 2019-04-24 07:48:29,252 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+INFO 2019-04-24 10:36:51,150 basehttp 124 "GET / HTTP/1.1" 200 34178
+INFO 2019-04-24 10:36:56,168 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+INFO 2019-04-24 10:37:14,047 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+WARNING 2019-04-24 10:39:27,905 base 152 Not Found: /carts/simple/
+WARNING 2019-04-24 10:39:27,908 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3754
+INFO 2019-04-24 10:39:30,358 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+INFO 2019-04-24 10:39:33,627 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+INFO 2019-04-24 10:42:01,017 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+ERROR 2019-04-24 10:43:42,314 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-04-24 10:43:42,385 basehttp 124 "GET /login/ HTTP/1.1" 400 70519
+ERROR 2019-04-24 10:44:42,193 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-04-24 10:44:42,275 basehttp 124 "GET / HTTP/1.1" 400 70325
+ERROR 2019-04-24 10:45:56,032 exception 80 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-04-24 10:45:56,106 basehttp 124 "GET /login/ HTTP/1.1" 400 70391
+INFO 2019-04-24 10:48:30,388 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+INFO 2019-04-24 10:48:32,432 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+WARNING 2019-04-24 10:49:40,301 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-24 10:49:42,269 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+WARNING 2019-04-24 10:53:03,168 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-24 10:53:07,996 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+WARNING 2019-04-24 10:58:25,884 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-24 10:58:30,011 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+WARNING 2019-04-24 10:59:18,785 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-24 10:59:31,613 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+WARNING 2019-04-24 10:59:31,845 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-24 10:59:38,426 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+INFO 2019-04-24 11:00:07,287 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+WARNING 2019-04-24 11:01:51,675 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-24 11:01:55,907 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+WARNING 2019-04-24 11:03:52,806 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-24 11:05:02,163 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+WARNING 2019-04-24 11:07:45,940 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+WARNING 2019-04-24 11:07:48,236 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-24 11:08:08,448 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+WARNING 2019-04-24 11:08:43,794 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+WARNING 2019-04-24 11:08:46,559 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-24 11:08:53,142 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+WARNING 2019-04-24 11:12:33,917 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-24 11:12:40,698 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+INFO 2019-04-24 11:12:51,344 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+WARNING 2019-04-24 11:17:38,572 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-24 11:17:40,057 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+WARNING 2019-04-24 11:17:46,087 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-24 11:17:48,032 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+INFO 2019-04-24 11:56:11,303 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+INFO 2019-04-24 11:56:14,319 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+INFO 2019-04-24 11:56:56,501 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+INFO 2019-04-24 11:56:59,086 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+INFO 2019-04-24 12:54:34,130 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+INFO 2019-04-24 12:54:37,613 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+WARNING 2019-04-24 12:57:01,202 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-04-24 12:57:05,169 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+INFO 2019-04-24 12:57:24,142 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+ERROR 2019-04-24 12:57:37,125 exception 135 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django_redis/cache.py", line 32, in _decorator
+    return method(self, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django_redis/cache.py", line 124, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django_redis/client/default.py", line 478, in has_key
+    raise ConnectionInterrupted(connection=client, parent=e)
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 111 connecting to 192.168.56.134:6379. Connection refused.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/apps/users/views.py", line 95, in post
+    login(request, user)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/auth/__init__.py", line 140, in login
+    request.session.cycle_key()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 311, in cycle_key
+    self.create()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/sessions/backends/cache.py", line 44, in create
+    self._session_key = self._get_new_session_key()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 164, in _get_new_session_key
+    if not self.exists(session_key):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/sessions/backends/cache.py", line 71, in exists
+    return session_key and (self.cache_key_prefix + session_key) in self._cache
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/cache/backends/base.py", line 203, in __contains__
+    return self.has_key(key)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django_redis/cache.py", line 39, in _decorator
+    raise e.parent
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django_redis/client/default.py", line 476, in has_key
+    return client.exists(key) == 1
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1239, in exists
+    return self.execute_command('EXISTS', *names)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 192.168.56.134:6379. Connection refused.
+ERROR 2019-04-24 12:57:37,218 basehttp 124 "POST /login/ HTTP/1.1" 500 146392
+ERROR 2019-04-24 12:59:13,581 exception 135 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django_redis/cache.py", line 32, in _decorator
+    return method(self, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django_redis/cache.py", line 124, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django_redis/client/default.py", line 478, in has_key
+    raise ConnectionInterrupted(connection=client, parent=e)
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 113 connecting to 192.168.56.134:6379. No route to host.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/apps/users/views.py", line 95, in post
+    login(request, user)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/auth/__init__.py", line 140, in login
+    request.session.cycle_key()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 311, in cycle_key
+    self.create()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/sessions/backends/cache.py", line 44, in create
+    self._session_key = self._get_new_session_key()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 164, in _get_new_session_key
+    if not self.exists(session_key):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/sessions/backends/cache.py", line 71, in exists
+    return session_key and (self.cache_key_prefix + session_key) in self._cache
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/cache/backends/base.py", line 203, in __contains__
+    return self.has_key(key)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django_redis/cache.py", line 39, in _decorator
+    raise e.parent
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django_redis/client/default.py", line 476, in has_key
+    return client.exists(key) == 1
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 1239, in exists
+    return self.execute_command('EXISTS', *names)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/client.py", line 772, in execute_command
+    connection = pool.get_connection(command_name, **options)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 994, in get_connection
+    connection.connect()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/redis/connection.py", line 497, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 113 connecting to 192.168.56.134:6379. No route to host.
+ERROR 2019-04-24 12:59:13,662 basehttp 124 "POST /login/ HTTP/1.1" 500 146363
+INFO 2019-04-24 13:03:06,053 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-04-24 13:03:06,550 base 152 Not Found: /carts/simple/
+WARNING 2019-04-24 13:03:06,553 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3919
+INFO 2019-04-24 13:03:08,973 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+INFO 2019-04-24 13:03:18,568 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-04-24 13:03:18,574 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-04-24 13:03:18,779 base 152 Not Found: /carts/simple/
+WARNING 2019-04-24 13:03:18,779 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3919
+INFO 2019-04-24 13:03:22,991 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2019-04-24 13:03:22,995 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-04-24 13:03:23,113 base 152 Not Found: /carts/simple/
+WARNING 2019-04-24 13:03:23,113 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3919
+INFO 2019-04-24 13:03:25,959 basehttp 124 "GET /register/ HTTP/1.1" 200 5373
+INFO 2019-04-24 13:03:25,988 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-04-24 13:03:26,078 basehttp 124 "GET /image_codes/1930b6dd-b20f-4e0c-8e20-adecc379ae66/ HTTP/1.1" 200 3257
+INFO 2019-04-24 13:03:31,189 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+INFO 2019-04-24 13:03:32,480 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+INFO 2019-04-24 13:04:54,825 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+INFO 2019-04-24 13:06:45,160 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+INFO 2019-04-24 13:11:41,652 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+INFO 2019-04-24 13:12:51,821 basehttp 124 "GET / HTTP/1.1" 200 34181
+INFO 2019-04-24 13:12:51,934 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 75
+INFO 2019-04-24 13:12:51,934 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-04-24 13:12:51,938 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-04-24 13:12:51,940 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-04-24 13:12:51,941 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-04-24 13:12:51,944 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-04-24 13:12:51,945 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-04-24 13:12:51,953 basehttp 124 "GET /static/js/base.js HTTP/1.1" 200 1016
+INFO 2019-04-24 13:12:51,958 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2019-04-24 13:12:51,969 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-04-24 13:12:51,975 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2019-04-24 13:12:51,977 basehttp 124 "GET /static/js/index.js HTTP/1.1" 200 1727
+INFO 2019-04-24 13:12:51,983 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2019-04-24 13:12:51,984 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2019-04-24 13:12:51,985 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2019-04-24 13:12:51,987 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2019-04-24 13:12:51,997 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2019-04-24 13:12:51,998 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2019-04-24 13:12:52,000 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2019-04-24 13:12:52,002 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2019-04-24 13:12:52,003 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2019-04-24 13:12:52,005 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2019-04-24 13:12:52,006 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2019-04-24 13:12:52,007 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2019-04-24 13:12:52,010 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2019-04-24 13:12:52,011 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2019-04-24 13:12:52,114 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2019-04-24 13:12:52,483 base 152 Not Found: /carts/simple/
+WARNING 2019-04-24 13:12:52,484 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3919
+INFO 2019-04-24 13:12:54,077 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+INFO 2019-04-24 13:12:54,121 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2019-04-24 13:12:54,122 basehttp 124 "GET /static/js/login.js HTTP/1.1" 200 5212
+INFO 2019-04-24 13:12:54,188 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2019-04-24 13:12:54,191 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2019-04-24 13:12:54,198 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2019-04-24 13:12:55,386 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+INFO 2019-04-24 13:20:39,582 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+INFO 2019-04-24 13:20:43,195 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+INFO 2019-04-24 13:22:05,170 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+INFO 2019-04-24 13:27:52,321 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+INFO 2019-04-24 13:27:56,224 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+INFO 2019-04-24 13:28:06,702 basehttp 124 "GET /oauth_callback?code=C1F033AE9E5D019C7CF5D1D7E83FFDED&state=%2F HTTP/1.1" 301 0
+INFO 2019-04-24 13:28:07,215 basehttp 124 "GET /oauth_callback/?code=C1F033AE9E5D019C7CF5D1D7E83FFDED&state=%2F HTTP/1.1" 200 5103
+INFO 2019-04-24 13:28:07,295 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-04-24 13:28:07,300 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-04-24 13:28:07,301 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-04-24 13:28:07,302 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 75
+INFO 2019-04-24 13:28:07,307 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-04-24 13:28:07,307 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-04-24 13:28:07,307 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-04-24 13:28:07,310 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2019-04-24 13:28:07,347 basehttp 124 "GET /static/js/oauth_callback.js HTTP/1.1" 200 10904
+INFO 2019-04-24 13:28:07,376 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-04-24 13:28:07,386 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2019-04-24 13:28:07,548 basehttp 124 "GET /image_codes/566c64b5-3c4f-4ec0-bb90-d5d560adfe35/ HTTP/1.1" 200 3196
+WARNING 2019-04-24 13:28:07,574 base 152 Not Found: /favicon.ico
+WARNING 2019-04-24 13:28:07,575 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3919
+INFO 2019-04-24 13:28:22,569 basehttp 124 "GET /image_codes/79eb9ff5-a266-4039-acb7-8f1f3e76bfdc/ HTTP/1.1" 200 3222
+INFO 2019-04-24 13:28:23,779 basehttp 124 "GET /image_codes/e7841600-1138-4452-9a9c-bc78573028d3/ HTTP/1.1" 200 3381
+INFO 2019-04-24 13:28:31,405 views 65 450284
+INFO 2019-04-24 13:28:31,651 basehttp 124 "GET /sms_codes/15663489001/?image_code=ifwb&image_code_id=e7841600-1138-4452-9a9c-bc78573028d3 HTTP/1.1" 200 29
+ERROR 2019-04-24 13:29:07,751 exception 135 Internal Server Error: /oauth_callback/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 131, in post
+    if sms_code_server.decode() != sms_code_client():
+TypeError: 'str' object is not callable
+ERROR 2019-04-24 13:29:07,801 basehttp 124 "POST /oauth_callback/?code=C1F033AE9E5D019C7CF5D1D7E83FFDED&state=%2F HTTP/1.1" 500 85534
+INFO 2019-04-24 13:41:16,067 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-04-24 13:41:16,558 base 152 Not Found: /carts/simple/
+WARNING 2019-04-24 13:41:16,566 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3919
+INFO 2019-04-24 13:41:17,954 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+INFO 2019-04-24 13:41:19,279 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+INFO 2019-04-24 13:41:32,814 basehttp 124 "GET /oauth_callback?code=E1B173AB2A97ECF90C2668C1076CE5C0&state=%2F HTTP/1.1" 301 0
+INFO 2019-04-24 13:41:33,330 basehttp 124 "GET /oauth_callback/?code=E1B173AB2A97ECF90C2668C1076CE5C0&state=%2F HTTP/1.1" 200 5103
+INFO 2019-04-24 13:41:33,621 basehttp 124 "GET /image_codes/6df8b000-c3ec-4511-96f9-64f9199089ab/ HTTP/1.1" 200 3254
+INFO 2019-04-24 13:41:50,208 basehttp 124 "GET /image_codes/c024e544-2f2e-4b8d-b58e-41df9fe0e27e/ HTTP/1.1" 200 3391
+INFO 2019-04-24 13:41:59,090 basehttp 124 "GET /sms_codes/15663489001/?image_code=lqi7&image_code_id=c024e544-2f2e-4b8d-b58e-41df9fe0e27e HTTP/1.1" 200 72
+INFO 2019-04-24 13:42:15,010 basehttp 124 "GET /sms_codes/15663489001/?image_code=lqi7&image_code_id=c024e544-2f2e-4b8d-b58e-41df9fe0e27e HTTP/1.1" 200 78
+INFO 2019-04-24 13:42:26,810 basehttp 124 "GET /sms_codes/15663489001/?image_code=lqi7&image_code_id=c024e544-2f2e-4b8d-b58e-41df9fe0e27e HTTP/1.1" 200 78
+INFO 2019-04-24 13:42:27,861 basehttp 124 "GET /sms_codes/15663489001/?image_code=lqi7&image_code_id=c024e544-2f2e-4b8d-b58e-41df9fe0e27e HTTP/1.1" 200 78
+INFO 2019-04-24 13:42:28,328 basehttp 124 "GET /sms_codes/15663489001/?image_code=lqi7&image_code_id=c024e544-2f2e-4b8d-b58e-41df9fe0e27e HTTP/1.1" 200 78
+INFO 2019-04-24 13:42:28,783 basehttp 124 "GET /sms_codes/15663489001/?image_code=lqi7&image_code_id=c024e544-2f2e-4b8d-b58e-41df9fe0e27e HTTP/1.1" 200 78
+INFO 2019-04-24 13:42:29,385 basehttp 124 "GET /sms_codes/15663489001/?image_code=lqi7&image_code_id=c024e544-2f2e-4b8d-b58e-41df9fe0e27e HTTP/1.1" 200 78
+INFO 2019-04-24 13:42:29,627 basehttp 124 "GET /sms_codes/15663489001/?image_code=lqi7&image_code_id=c024e544-2f2e-4b8d-b58e-41df9fe0e27e HTTP/1.1" 200 78
+INFO 2019-04-24 13:43:11,511 basehttp 124 "GET /sms_codes/15663489001/?image_code=lqi7&image_code_id=c024e544-2f2e-4b8d-b58e-41df9fe0e27e HTTP/1.1" 200 78
+INFO 2019-04-24 13:43:12,157 basehttp 124 "GET /sms_codes/15663489001/?image_code=lqi7&image_code_id=c024e544-2f2e-4b8d-b58e-41df9fe0e27e HTTP/1.1" 200 78
+INFO 2019-04-24 13:43:12,609 basehttp 124 "GET /sms_codes/15663489001/?image_code=lqi7&image_code_id=c024e544-2f2e-4b8d-b58e-41df9fe0e27e HTTP/1.1" 200 78
+INFO 2019-04-24 13:43:12,823 basehttp 124 "GET /sms_codes/15663489001/?image_code=lqi7&image_code_id=c024e544-2f2e-4b8d-b58e-41df9fe0e27e HTTP/1.1" 200 78
+INFO 2019-04-24 13:43:13,026 basehttp 124 "GET /sms_codes/15663489001/?image_code=lqi7&image_code_id=c024e544-2f2e-4b8d-b58e-41df9fe0e27e HTTP/1.1" 200 78
+INFO 2019-04-24 13:44:00,758 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+INFO 2019-04-24 13:44:03,830 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+INFO 2019-04-24 13:44:14,190 basehttp 124 "GET /oauth_callback?code=9EB9287A3F37E9A00478056A5346C145&state=%2F HTTP/1.1" 301 0
+INFO 2019-04-24 13:44:14,691 basehttp 124 "GET /oauth_callback/?code=9EB9287A3F37E9A00478056A5346C145&state=%2F HTTP/1.1" 200 5103
+INFO 2019-04-24 13:44:15,008 basehttp 124 "GET /image_codes/27bf5472-7e9d-4e1a-8e91-dabeb3ae7bf0/ HTTP/1.1" 200 3428
+INFO 2019-04-24 13:44:51,335 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-04-24 13:44:51,765 base 152 Not Found: /carts/simple/
+WARNING 2019-04-24 13:44:51,770 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3919
+INFO 2019-04-24 13:44:53,100 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+INFO 2019-04-24 13:44:54,316 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+INFO 2019-04-24 13:45:04,630 basehttp 124 "GET /oauth_callback?code=3C82D44A06A92AF17C590F8102DF5574&state=%2F HTTP/1.1" 301 0
+INFO 2019-04-24 13:45:05,150 basehttp 124 "GET /oauth_callback/?code=3C82D44A06A92AF17C590F8102DF5574&state=%2F HTTP/1.1" 200 5103
+INFO 2019-04-24 13:45:05,443 basehttp 124 "GET /image_codes/b9b8c480-1b39-42a6-8a66-d6c26ba7ff3a/ HTTP/1.1" 200 3347
+INFO 2019-04-24 13:45:30,764 views 65 874900
+INFO 2019-04-24 13:45:31,052 basehttp 124 "GET /sms_codes/15663489001/?image_code=uow3&image_code_id=b9b8c480-1b39-42a6-8a66-d6c26ba7ff3a HTTP/1.1" 200 29
+INFO 2019-04-24 13:45:31,899 basehttp 124 "GET /sms_codes/15663489001/?image_code=uow3&image_code_id=b9b8c480-1b39-42a6-8a66-d6c26ba7ff3a HTTP/1.1" 200 78
+INFO 2019-04-24 13:45:36,090 basehttp 124 "GET /sms_codes/15663489001/?image_code=uow3&image_code_id=b9b8c480-1b39-42a6-8a66-d6c26ba7ff3a HTTP/1.1" 200 78
+INFO 2019-04-24 13:45:36,437 basehttp 124 "GET /sms_codes/15663489001/?image_code=uow3&image_code_id=b9b8c480-1b39-42a6-8a66-d6c26ba7ff3a HTTP/1.1" 200 78
+INFO 2019-04-24 13:45:36,655 basehttp 124 "GET /sms_codes/15663489001/?image_code=uow3&image_code_id=b9b8c480-1b39-42a6-8a66-d6c26ba7ff3a HTTP/1.1" 200 78
+INFO 2019-04-24 13:45:54,689 basehttp 124 "GET /sms_codes/15663489001/?image_code=uow3&image_code_id=b9b8c480-1b39-42a6-8a66-d6c26ba7ff3a HTTP/1.1" 200 78
+INFO 2019-04-24 13:45:55,135 basehttp 124 "GET /sms_codes/15663489001/?image_code=uow3&image_code_id=b9b8c480-1b39-42a6-8a66-d6c26ba7ff3a HTTP/1.1" 200 78
+INFO 2019-04-24 13:46:11,062 basehttp 124 "POST /oauth_callback/?code=3C82D44A06A92AF17C590F8102DF5574&state=%2F HTTP/1.1" 302 0
+INFO 2019-04-24 13:46:11,075 basehttp 124 "GET / HTTP/1.1" 200 34181
+INFO 2019-04-24 13:46:11,113 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-04-24 13:46:11,116 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2019-04-24 13:46:11,162 basehttp 124 "GET /static/js/base.js HTTP/1.1" 200 1016
+INFO 2019-04-24 13:46:11,172 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2019-04-24 13:46:11,179 basehttp 124 "GET /static/js/index.js HTTP/1.1" 200 1727
+INFO 2019-04-24 13:46:11,185 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2019-04-24 13:46:11,186 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2019-04-24 13:46:11,189 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2019-04-24 13:46:11,208 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2019-04-24 13:46:11,215 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2019-04-24 13:46:11,216 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2019-04-24 13:46:11,232 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2019-04-24 13:46:11,234 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2019-04-24 13:46:11,243 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2019-04-24 13:46:11,248 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2019-04-24 13:46:11,256 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2019-04-24 13:46:11,258 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2019-04-24 13:46:11,265 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2019-04-24 13:46:11,266 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2019-04-24 13:46:11,268 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2019-04-24 13:46:11,457 base 152 Not Found: /carts/simple/
+WARNING 2019-04-24 13:46:11,458 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3919
+INFO 2019-04-24 13:46:40,468 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2019-04-24 13:46:40,474 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-04-24 13:46:40,648 base 152 Not Found: /carts/simple/
+WARNING 2019-04-24 13:46:40,649 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3919
+INFO 2019-04-24 13:46:42,019 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+INFO 2019-04-24 13:46:42,040 basehttp 124 "GET /static/js/login.js HTTP/1.1" 200 5212
+INFO 2019-04-24 13:46:42,075 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2019-04-24 13:46:42,079 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2019-04-24 13:46:42,081 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2019-04-24 13:46:43,232 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+INFO 2019-04-24 13:46:44,692 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+INFO 2019-04-24 13:46:45,634 basehttp 124 "GET /qq/authorization/?next=/ HTTP/1.1" 200 200
+WARNING 2019-04-24 13:46:47,833 base 152 Not Found: /carts/simple/
+WARNING 2019-04-24 13:46:47,837 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3919
+WARNING 2019-04-24 13:46:48,107 base 152 Not Found: /carts/simple/
+WARNING 2019-04-24 13:46:48,108 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3919
+ERROR 2019-04-24 13:46:48,341 views 51 access_token获取失败
+ERROR 2019-04-24 13:46:48,343 basehttp 124 "GET /oauth_callback/?code=3C82D44A06A92AF17C590F8102DF5574&state=%2F HTTP/1.1" 500 20
+INFO 2019-04-24 13:46:58,764 basehttp 124 "GET /oauth_callback?code=7FCB28109C00D856356BA3341F730E48&state=%2F HTTP/1.1" 301 0
+INFO 2019-04-24 13:46:59,261 basehttp 124 "GET /oauth_callback/?code=7FCB28109C00D856356BA3341F730E48&state=%2F HTTP/1.1" 302 0
+INFO 2019-04-24 13:46:59,274 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-04-24 13:46:59,787 base 152 Not Found: /carts/simple/
+WARNING 2019-04-24 13:46:59,788 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3919
