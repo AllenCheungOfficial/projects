@@ -19,4 +19,10 @@ urlpatterns = [
     url(r'^logout/$', views.LogoutView.as_view(), name='logout'),
     # 用户中心
     url(r'^info/$', views.UserInfoView.as_view(), name='info'),
+    # 添加邮箱
+    url(r'^emails/$', views.EmailView.as_view()),
+    # 验证邮箱
+    url(r'^emails/verification/$', views.VerifyEmailView.as_view()),
+    # 地址页面展示路由:
+    url(r'^addresses/$', views.AddressView.as_view(), name='address'),
 ]

@@ -15,10 +15,11 @@ _accountSid = '8a216da86a2a8174016a38fd4b4d0960'
 _accountToken = 'b452f86cebc346ea8eed7f2fa0d5da2c'
 
 # 请使用管理控制台首页的APPID或自己创建应用的APPID
-_appId = '8a216da86a2a8174016a38fd4baa0967'
+_appId = '8aaf07086a25761e016a3eeceafe1009'
 
 # 说明：请求地址，生产环境配置成app.cloopen.com
 _serverIP = 'sandboxapp.cloopen.com'
+# _serverIP = 'app.cloopen.com'
 
 # 说明：请求端口 ，生产环境为8883
 _serverPort = "8883"

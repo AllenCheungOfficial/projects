@@ -1,3 +1,4 @@
+import json
 from django.contrib.auth import login, authenticate, logout
 from django.shortcuts import render, redirect
 from django.urls import reverse
@@ -5,10 +6,101 @@ from django.views import View
 from django import http
 import re
 from meiduo_mall.utils.response_code import RETCODE
-from meiduo_mall.utils.views import LoginRequiredMixin
+from meiduo_mall.utils.views import LoginRequiredMixin, LoginRequiredJSONMixin
 from .models import User
 from django.db import DatabaseError
 from django_redis import get_redis_connection
+import logging
+logger = logging.getLogger('django')
+
+
+class AddressView(LoginRequiredMixin, View):
+    """用户收货地址"""
+    def get(self,request):
+        """提供收货地址界面"""
+
+        return render(request,'user_center_site.html')
+
+
+
+
+
+
+class VerifyEmailView(View):
+    """验证邮箱"""
+
+    def get(self, request):
+        # 接收参数
+        token = request.GET.get('token')
+
+        # 校验参数：判断 token 是否为空和过期，提取 user
+        if not token:
+            return http.HttpResponseForbidden('缺少token')
+
+        # 调用上面封装好的方法, 将 token 传入
+        user = User.check_verify_email_token(token)
+
+        if not user:
+            return http.HttpResponseForbidden('无效的token')
+
+        # 修改 email_active 的值为 True
+        try:
+            user.email_active = True
+            user.save()
+
+        except Exception as e:
+            logging.error(e)
+            return http.HttpResponseForbidden('激活邮件失败')
+
+        login(request, user)
+        # 返回邮箱验证结果
+        return redirect(reverse('users:info'))
+
+
+class EmailView(LoginRequiredJSONMixin, View):
+    """添加邮箱"""
+
+    def put(self, request):
+        """接收邮箱,保存到数据库中"""
+
+        # 1.接收参数
+        # request.POST
+        # request.GET
+        # json_str = request.body.decode()
+        # json_dict = json.loads(json_str)
+        # email = json_dict.get('email')
+
+        # 接收，解码，str转dict获取key(email,参数)
+        json_dict = json.loads(request.body.decode())
+        email = json_dict.get('email')
+
+        # 2. 校验参数
+        if not email:
+            return http.HttpResponseForbidden('缺少email参数')
+
+        if not re.match(r'^[a-z0-9][\w\.\-]*@[a-z0-9\-]+(\.[a-z]{2,5}){1,2}$', email):
+            return http.HttpResponseForbidden('email格式不正确')
+
+        # 更改数据库,赋值 email 字段
+        # User.objects.update()
+        try:
+            # 赋值前段传的email到db
+            request.user.email = email
+            # 修改db保存
+            request.user.save()
+        except Exception as e:
+            logging.error(e)
+            return http.JsonResponse({'code': RETCODE.DBERR, 'errmsg': '保存邮箱失败'})
+
+        # 发送验证邮件:
+        from celery_tasks.email.tasks import send_verify_email
+
+        # 异步发送验证邮件
+        verify_url = request.user.generate_verify_email_url()
+        send_verify_email.delay(email, verify_url)
+
+        # 返回
+        return http.JsonResponse({'code': RETCODE.OK, 'errmsg': '邮箱保存成功'})
 
 
 # 添加用户中心类:
@@ -17,8 +109,17 @@ class UserInfoView(LoginRequiredMixin, View):
 
     def get(self, request):
         """提供个人信息界面"""
+        # 将验证用户的信息进行拼接
+        context = {
+            'username': request.user.username,
+            'mobile': request.user.mobile,
+            'email': request.user.email,
+            'email_active': request.user.email_active,
 
-        return render(request, 'user_center_info.html')
+        }
+        # 返回响应
+        print(context)
+        return render(request, 'user_center_info.html', context=context)
 
 
 class LogoutView(View):
