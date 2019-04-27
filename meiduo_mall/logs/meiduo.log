@@ -6312,3 +6312,568 @@ INFO 2019-04-26 14:04:37,867 basehttp 124 "GET /areas/110100/ HTTP/1.1" 200 845
 INFO 2019-04-26 14:11:39,282 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8719
 INFO 2019-04-26 14:11:39,638 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
 INFO 2019-04-26 14:11:45,572 basehttp 124 "GET /areas/220000/ HTTP/1.1" 200 541
+INFO 2019-04-27 04:13:44,011 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-04-27 04:13:45,121 base 152 Not Found: /carts/simple/
+WARNING 2019-04-27 04:13:45,124 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 4757
+WARNING 2019-04-27 04:13:45,273 base 152 Not Found: /favicon.ico
+WARNING 2019-04-27 04:13:45,274 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 4751
+INFO 2019-04-27 04:13:49,462 basehttp 124 "GET /info/ HTTP/1.1" 200 8408
+WARNING 2019-04-27 04:13:49,739 base 152 Not Found: /browse_histories/
+WARNING 2019-04-27 04:13:49,740 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4769
+WARNING 2019-04-27 04:13:53,136 base 152 Not Found: /info/user_center_site.html
+WARNING 2019-04-27 04:13:53,137 basehttp 124 "GET /info/user_center_site.html HTTP/1.1" 404 4796
+INFO 2019-04-27 04:14:01,380 basehttp 124 "GET /static/user_center_order.html HTTP/1.1" 304 0
+WARNING 2019-04-27 04:14:02,986 base 152 Not Found: /templates/user_center_site.html
+WARNING 2019-04-27 04:14:02,987 basehttp 124 "GET /templates/user_center_site.html HTTP/1.1" 404 4811
+INFO 2019-04-27 04:14:30,123 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8719
+INFO 2019-04-27 04:14:30,340 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 04:14:32,808 basehttp 124 "GET /areas/130000/ HTTP/1.1" 200 703
+INFO 2019-04-27 04:14:33,935 basehttp 124 "GET /areas/130300/ HTTP/1.1" 200 461
+INFO 2019-04-27 07:05:15,010 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9316
+INFO 2019-04-27 07:05:16,934 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2019-04-27 07:05:26,127 base 152 Not Found: /addresses/user_center_site.html
+WARNING 2019-04-27 07:05:26,131 basehttp 124 "GET /addresses/user_center_site.html HTTP/1.1" 404 4978
+INFO 2019-04-27 07:05:50,498 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9331
+INFO 2019-04-27 07:05:50,696 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:06:09,559 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9328
+INFO 2019-04-27 07:06:09,681 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:06:21,803 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9328
+INFO 2019-04-27 07:06:21,923 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2019-04-27 07:06:31,104 base 152 Not Found: /addresses/user_center_site.html
+WARNING 2019-04-27 07:06:31,105 basehttp 124 "GET /addresses/user_center_site.html HTTP/1.1" 404 4978
+INFO 2019-04-27 07:06:47,256 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9316
+INFO 2019-04-27 07:06:47,396 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:06:48,279 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9316
+INFO 2019-04-27 07:06:48,363 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:06:48,832 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9316
+INFO 2019-04-27 07:06:48,909 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:06:49,377 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9316
+INFO 2019-04-27 07:06:49,460 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:06:49,899 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9316
+INFO 2019-04-27 07:06:49,966 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:06:50,470 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9316
+INFO 2019-04-27 07:06:50,569 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:06:51,044 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9316
+INFO 2019-04-27 07:06:51,111 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:06:51,452 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9316
+INFO 2019-04-27 07:06:51,511 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:07:44,822 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9329
+INFO 2019-04-27 07:07:44,964 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:07:45,959 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9329
+INFO 2019-04-27 07:07:46,108 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:07:46,592 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9329
+INFO 2019-04-27 07:07:46,659 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:07:53,878 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9329
+INFO 2019-04-27 07:07:55,210 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2019-04-27 07:08:04,120 base 152 Not Found: /addresses/user_center_info.html
+WARNING 2019-04-27 07:08:04,121 basehttp 124 "GET /addresses/user_center_info.html HTTP/1.1" 404 4978
+INFO 2019-04-27 07:08:07,832 basehttp 124 "GET /static/user_center_pass.html HTTP/1.1" 200 4446
+INFO 2019-04-27 07:08:07,868 basehttp 124 "GET /static/js/user_center_pass.js HTTP/1.1" 200 4955
+WARNING 2019-04-27 07:08:10,913 base 152 Not Found: /templates/user_center_site.html
+WARNING 2019-04-27 07:08:10,914 basehttp 124 "GET /templates/user_center_site.html HTTP/1.1" 404 4978
+WARNING 2019-04-27 07:08:14,946 base 152 Not Found: /templates/user_center_site.html
+WARNING 2019-04-27 07:08:14,951 basehttp 124 "GET /templates/user_center_site.html HTTP/1.1" 404 4978
+WARNING 2019-04-27 07:09:05,642 base 152 Not Found: /addresses/login.html
+WARNING 2019-04-27 07:09:05,643 basehttp 124 "GET /addresses/login.html HTTP/1.1" 404 4945
+INFO 2019-04-27 07:09:12,866 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-04-27 07:09:13,613 base 152 Not Found: /carts/simple/
+WARNING 2019-04-27 07:09:13,613 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 4924
+INFO 2019-04-27 07:09:14,953 basehttp 124 "GET /info/ HTTP/1.1" 200 8408
+WARNING 2019-04-27 07:09:15,083 base 152 Not Found: /browse_histories/
+WARNING 2019-04-27 07:09:15,084 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4936
+WARNING 2019-04-27 07:09:16,627 base 152 Not Found: /info/user_center_site.html
+WARNING 2019-04-27 07:09:16,627 basehttp 124 "GET /info/user_center_site.html HTTP/1.1" 404 4963
+INFO 2019-04-27 07:10:05,907 basehttp 124 "GET /addresses/create HTTP/1.1" 301 0
+WARNING 2019-04-27 07:10:05,940 base 93 Method Not Allowed (GET): /addresses/create/
+WARNING 2019-04-27 07:10:05,941 basehttp 124 "GET /addresses/create/ HTTP/1.1" 405 0
+WARNING 2019-04-27 07:10:23,137 base 93 Method Not Allowed (GET): /addresses/create/
+WARNING 2019-04-27 07:10:23,138 basehttp 124 "GET /addresses/create/ HTTP/1.1" 405 0
+WARNING 2019-04-27 07:11:16,618 base 93 Method Not Allowed (GET): /addresses/create/
+WARNING 2019-04-27 07:11:16,619 basehttp 124 "GET /addresses/create/ HTTP/1.1" 405 0
+INFO 2019-04-27 07:11:21,063 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8719
+INFO 2019-04-27 07:11:21,649 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:11:23,430 basehttp 124 "GET /areas/430000/ HTTP/1.1" 200 789
+INFO 2019-04-27 07:11:24,753 basehttp 124 "GET /areas/430300/ HTTP/1.1" 200 327
+INFO 2019-04-27 07:12:14,014 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8861
+INFO 2019-04-27 07:12:14,176 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:12:14,938 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8861
+INFO 2019-04-27 07:12:15,038 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:12:16,631 basehttp 124 "GET /areas/420000/ HTTP/1.1" 200 819
+INFO 2019-04-27 07:12:17,736 basehttp 124 "GET /areas/420300/ HTTP/1.1" 200 465
+INFO 2019-04-27 07:15:16,517 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9316
+INFO 2019-04-27 07:15:16,742 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:15:53,832 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9277
+INFO 2019-04-27 07:15:53,968 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:15:54,742 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9277
+INFO 2019-04-27 07:15:54,838 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:16:29,080 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9382
+INFO 2019-04-27 07:16:29,185 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:16:30,150 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9382
+INFO 2019-04-27 07:16:30,273 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:16:30,507 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9382
+INFO 2019-04-27 07:16:30,599 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:16:31,109 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9382
+INFO 2019-04-27 07:16:31,212 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:16:31,661 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9382
+INFO 2019-04-27 07:16:31,766 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:16:32,228 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9382
+INFO 2019-04-27 07:16:32,323 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:16:32,757 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9382
+INFO 2019-04-27 07:16:32,855 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:16:33,297 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9382
+INFO 2019-04-27 07:16:33,395 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:16:33,801 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9382
+INFO 2019-04-27 07:16:33,898 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:16:34,057 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9382
+INFO 2019-04-27 07:16:34,171 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:16:34,397 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9382
+INFO 2019-04-27 07:16:34,496 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:16:34,597 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9382
+INFO 2019-04-27 07:16:34,706 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:16:34,960 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9382
+INFO 2019-04-27 07:16:35,061 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:16:35,282 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9382
+INFO 2019-04-27 07:16:35,395 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:49:33,493 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9385
+INFO 2019-04-27 07:49:33,718 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:49:39,134 basehttp 124 "GET /areas/420000/ HTTP/1.1" 200 819
+INFO 2019-04-27 07:49:40,357 basehttp 124 "GET /areas/420300/ HTTP/1.1" 200 465
+INFO 2019-04-27 07:50:28,596 basehttp 124 "GET /areas/310000/ HTTP/1.1" 200 143
+INFO 2019-04-27 07:50:30,592 basehttp 124 "GET /areas/310100/ HTTP/1.1" 200 839
+INFO 2019-04-27 07:50:40,831 basehttp 124 "POST /addresses/create/ HTTP/1.1" 200 272
+INFO 2019-04-27 07:50:40,875 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9385
+INFO 2019-04-27 07:50:40,972 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 07:51:36,733 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9385
+INFO 2019-04-27 07:51:36,886 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 11:44:26,796 basehttp 124 "GET /addresses/ HTTP/1.1" 200 10602
+INFO 2019-04-27 11:44:27,293 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 11:44:55,029 basehttp 124 "GET /areas/430000/ HTTP/1.1" 200 789
+INFO 2019-04-27 11:44:56,426 basehttp 124 "GET /areas/430400/ HTTP/1.1" 200 649
+WARNING 2019-04-27 11:51:06,711 base 152 Not Found: /addresses/1/title/
+WARNING 2019-04-27 11:51:06,714 basehttp 124 "PUT /addresses/1/title/ HTTP/1.1" 404 4939
+WARNING 2019-04-27 11:52:12,337 base 93 Method Not Allowed (GET): /addresses/create/
+WARNING 2019-04-27 11:52:12,338 basehttp 124 "GET /addresses/create/ HTTP/1.1" 405 0
+WARNING 2019-04-27 11:52:26,884 base 93 Method Not Allowed (GET): /addresses/create/
+WARNING 2019-04-27 11:52:26,885 basehttp 124 "GET /addresses/create/ HTTP/1.1" 405 0
+INFO 2019-04-27 11:52:37,139 basehttp 124 "GET /addresses/ HTTP/1.1" 200 10602
+INFO 2019-04-27 11:52:40,482 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2019-04-27 11:52:43,261 base 93 Method Not Allowed (DELETE): /addresses/1/
+WARNING 2019-04-27 11:52:43,262 basehttp 124 "DELETE /addresses/1/ HTTP/1.1" 405 0
+WARNING 2019-04-27 11:52:44,323 base 93 Method Not Allowed (DELETE): /addresses/1/
+WARNING 2019-04-27 11:52:44,324 basehttp 124 "DELETE /addresses/1/ HTTP/1.1" 405 0
+INFO 2019-04-27 11:52:50,852 basehttp 124 "GET /areas/130000/ HTTP/1.1" 200 703
+INFO 2019-04-27 11:52:51,952 basehttp 124 "GET /areas/130200/ HTTP/1.1" 200 741
+WARNING 2019-04-27 11:52:56,584 basehttp 124 "POST /addresses/create/ HTTP/1.1" 403 18
+WARNING 2019-04-27 11:52:57,347 basehttp 124 "POST /addresses/create/ HTTP/1.1" 403 18
+WARNING 2019-04-27 11:52:57,971 basehttp 124 "POST /addresses/create/ HTTP/1.1" 403 18
+WARNING 2019-04-27 11:52:58,496 basehttp 124 "POST /addresses/create/ HTTP/1.1" 403 18
+WARNING 2019-04-27 11:53:18,352 basehttp 124 "POST /addresses/create/ HTTP/1.1" 403 18
+INFO 2019-04-27 11:54:05,072 basehttp 124 "GET /areas/340000/ HTTP/1.1" 200 839
+INFO 2019-04-27 11:54:06,328 basehttp 124 "GET /areas/340600/ HTTP/1.1" 200 281
+INFO 2019-04-27 11:54:09,967 basehttp 124 "PUT /addresses/1/ HTTP/1.1" 200 316
+INFO 2019-04-27 12:02:33,716 basehttp 124 "GET /addresses/ HTTP/1.1" 200 10599
+INFO 2019-04-27 12:02:33,973 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 12:02:46,424 basehttp 124 "GET /areas/110000/ HTTP/1.1" 200 143
+INFO 2019-04-27 12:02:48,688 basehttp 124 "GET /areas/110100/ HTTP/1.1" 200 845
+INFO 2019-04-27 12:03:16,384 basehttp 124 "POST /addresses/create/ HTTP/1.1" 200 260
+INFO 2019-04-27 12:03:16,507 basehttp 124 "GET /addresses/ HTTP/1.1" 200 10790
+INFO 2019-04-27 12:03:16,730 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2019-04-27 12:03:20,358 base 152 Not Found: /addresses/2/default/
+WARNING 2019-04-27 12:03:20,364 basehttp 124 "PUT /addresses/2/default/ HTTP/1.1" 404 5131
+WARNING 2019-04-27 12:03:20,933 base 152 Not Found: /addresses/2/default/
+WARNING 2019-04-27 12:03:20,935 basehttp 124 "PUT /addresses/2/default/ HTTP/1.1" 404 5131
+ERROR 2019-04-27 12:03:24,585 exception 135 Internal Server Error: /addresses/2/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/utils/views.py", line 38, in wrapper
+    return view_func(requset, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: delete() got an unexpected keyword argument 'address_id'
+ERROR 2019-04-27 12:03:24,647 basehttp 124 "DELETE /addresses/2/ HTTP/1.1" 500 84498
+ERROR 2019-04-27 12:03:26,055 exception 135 Internal Server Error: /addresses/2/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/utils/views.py", line 38, in wrapper
+    return view_func(requset, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: delete() got an unexpected keyword argument 'address_id'
+ERROR 2019-04-27 12:03:26,114 basehttp 124 "DELETE /addresses/2/ HTTP/1.1" 500 84498
+ERROR 2019-04-27 12:03:26,661 exception 135 Internal Server Error: /addresses/2/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/utils/views.py", line 38, in wrapper
+    return view_func(requset, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: delete() got an unexpected keyword argument 'address_id'
+ERROR 2019-04-27 12:03:26,723 basehttp 124 "DELETE /addresses/2/ HTTP/1.1" 500 84498
+ERROR 2019-04-27 12:03:26,937 exception 135 Internal Server Error: /addresses/2/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/utils/views.py", line 38, in wrapper
+    return view_func(requset, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: delete() got an unexpected keyword argument 'address_id'
+ERROR 2019-04-27 12:03:26,993 basehttp 124 "DELETE /addresses/2/ HTTP/1.1" 500 84498
+ERROR 2019-04-27 12:03:40,269 exception 135 Internal Server Error: /addresses/2/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/utils/views.py", line 38, in wrapper
+    return view_func(requset, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: delete() got an unexpected keyword argument 'address_id'
+ERROR 2019-04-27 12:03:40,339 basehttp 124 "DELETE /addresses/2/ HTTP/1.1" 500 84498
+ERROR 2019-04-27 12:03:40,665 exception 135 Internal Server Error: /addresses/2/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/utils/views.py", line 38, in wrapper
+    return view_func(requset, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: delete() got an unexpected keyword argument 'address_id'
+ERROR 2019-04-27 12:03:40,717 basehttp 124 "DELETE /addresses/2/ HTTP/1.1" 500 84498
+ERROR 2019-04-27 12:03:40,931 exception 135 Internal Server Error: /addresses/2/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/utils/views.py", line 38, in wrapper
+    return view_func(requset, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: delete() got an unexpected keyword argument 'address_id'
+ERROR 2019-04-27 12:03:41,000 basehttp 124 "DELETE /addresses/2/ HTTP/1.1" 500 84498
+INFO 2019-04-27 12:15:11,247 basehttp 124 "GET /addresses/ HTTP/1.1" 200 10790
+INFO 2019-04-27 12:15:11,597 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 12:15:14,721 basehttp 124 "PUT /addresses/2/default/ HTTP/1.1" 200 75
+INFO 2019-04-27 12:15:16,394 basehttp 124 "PUT /addresses/1/default/ HTTP/1.1" 200 75
+INFO 2019-04-27 12:22:57,027 basehttp 124 "GET /addresses/ HTTP/1.1" 200 10790
+INFO 2019-04-27 12:22:57,713 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2019-04-27 12:23:12,081 base 152 Not Found: /addresses/1/title/
+WARNING 2019-04-27 12:23:12,082 basehttp 124 "PUT /addresses/1/title/ HTTP/1.1" 404 5319
+WARNING 2019-04-27 12:23:21,751 base 152 Not Found: /addresses/2/title/
+WARNING 2019-04-27 12:23:21,753 basehttp 124 "PUT /addresses/2/title/ HTTP/1.1" 404 5319
+INFO 2019-04-27 12:23:31,977 basehttp 124 "GET /addresses/ HTTP/1.1" 200 10790
+INFO 2019-04-27 12:23:35,342 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2019-04-27 12:23:48,120 base 152 Not Found: /addresses/1/title/
+WARNING 2019-04-27 12:23:48,121 basehttp 124 "PUT /addresses/1/title/ HTTP/1.1" 404 5319
+INFO 2019-04-27 12:24:22,098 basehttp 124 "GET /addresses/ HTTP/1.1" 200 10790
+INFO 2019-04-27 12:24:22,482 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+ERROR 2019-04-27 12:24:30,075 exception 135 Internal Server Error: /addresses/1/title/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/utils/views.py", line 38, in wrapper
+    return view_func(requset, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: put() got an unexpected keyword argument 'address_id'
+ERROR 2019-04-27 12:24:30,127 basehttp 124 "PUT /addresses/1/title/ HTTP/1.1" 500 84532
+INFO 2019-04-27 12:24:48,831 basehttp 124 "GET /addresses/ HTTP/1.1" 200 10790
+INFO 2019-04-27 12:24:50,425 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+ERROR 2019-04-27 12:24:59,729 exception 135 Internal Server Error: /addresses/1/title/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/utils/views.py", line 38, in wrapper
+    return view_func(requset, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: put() got an unexpected keyword argument 'address_id'
+ERROR 2019-04-27 12:24:59,775 basehttp 124 "PUT /addresses/1/title/ HTTP/1.1" 500 84532
+ERROR 2019-04-27 12:25:04,448 exception 135 Internal Server Error: /addresses/2/title/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/utils/views.py", line 38, in wrapper
+    return view_func(requset, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: put() got an unexpected keyword argument 'address_id'
+ERROR 2019-04-27 12:25:04,483 basehttp 124 "PUT /addresses/2/title/ HTTP/1.1" 500 84532
+INFO 2019-04-27 12:28:19,219 basehttp 124 "GET /addresses/ HTTP/1.1" 200 10790
+INFO 2019-04-27 12:28:19,531 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 12:28:25,517 basehttp 124 "PUT /addresses/1/title/ HTTP/1.1" 200 75
+INFO 2019-04-27 12:50:41,682 basehttp 124 "GET /addresses/ HTTP/1.1" 200 10746
+INFO 2019-04-27 12:50:42,594 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 12:50:44,594 basehttp 124 "GET /password/ HTTP/1.1" 200 5194
+WARNING 2019-04-27 12:50:44,648 base 152 Not Found: /staic/images/logo.png
+WARNING 2019-04-27 12:50:44,653 basehttp 124 "GET /staic/images/logo.png HTTP/1.1" 404 5692
+WARNING 2019-04-27 12:50:44,896 base 152 Not Found: /staic/images/logo.png
+WARNING 2019-04-27 12:50:44,898 basehttp 124 "GET /staic/images/logo.png HTTP/1.1" 404 5692
+WARNING 2019-04-27 12:51:06,101 base 152 Not Found: /password/index.html
+WARNING 2019-04-27 12:51:06,102 basehttp 124 "GET /password/index.html HTTP/1.1" 404 5686
+INFO 2019-04-27 12:53:32,030 basehttp 124 "GET /password/ HTTP/1.1" 200 5193
+INFO 2019-04-27 12:54:21,924 basehttp 124 "GET /password/ HTTP/1.1" 200 5193
+INFO 2019-04-27 12:54:23,827 basehttp 124 "GET /password/ HTTP/1.1" 200 5193
+INFO 2019-04-27 12:54:24,715 basehttp 124 "GET /addresses/ HTTP/1.1" 200 10746
+INFO 2019-04-27 12:54:24,874 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 12:54:26,280 basehttp 124 "GET /static/user_center_order.html HTTP/1.1" 200 5905
+WARNING 2019-04-27 12:54:27,566 base 152 Not Found: /templates/user_center_info.html
+WARNING 2019-04-27 12:54:27,567 basehttp 124 "GET /templates/user_center_info.html HTTP/1.1" 404 5722
+WARNING 2019-04-27 12:54:34,015 base 152 Not Found: /templates/user_center_site.html
+WARNING 2019-04-27 12:54:34,016 basehttp 124 "GET /templates/user_center_site.html HTTP/1.1" 404 5722
+ERROR 2019-04-27 12:54:41,860 exception 135 Internal Server Error: /addresses/2/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/utils/views.py", line 38, in wrapper
+    return view_func(requset, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: delete() got an unexpected keyword argument 'address_id'
+ERROR 2019-04-27 12:54:41,917 basehttp 124 "DELETE /addresses/2/ HTTP/1.1" 500 84498
+ERROR 2019-04-27 12:54:45,886 exception 135 Internal Server Error: /addresses/2/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/utils/views.py", line 38, in wrapper
+    return view_func(requset, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: delete() got an unexpected keyword argument 'address_id'
+ERROR 2019-04-27 12:54:45,975 basehttp 124 "DELETE /addresses/2/ HTTP/1.1" 500 84498
+ERROR 2019-04-27 12:54:46,342 exception 135 Internal Server Error: /addresses/2/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/utils/views.py", line 38, in wrapper
+    return view_func(requset, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: delete() got an unexpected keyword argument 'address_id'
+ERROR 2019-04-27 12:54:46,390 basehttp 124 "DELETE /addresses/2/ HTTP/1.1" 500 84498
+ERROR 2019-04-27 12:54:46,596 exception 135 Internal Server Error: /addresses/2/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/utils/views.py", line 38, in wrapper
+    return view_func(requset, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: delete() got an unexpected keyword argument 'address_id'
+ERROR 2019-04-27 12:54:46,654 basehttp 124 "DELETE /addresses/2/ HTTP/1.1" 500 84498
+ERROR 2019-04-27 12:54:49,473 exception 135 Internal Server Error: /addresses/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/utils/views.py", line 38, in wrapper
+    return view_func(requset, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: delete() got an unexpected keyword argument 'address_id'
+ERROR 2019-04-27 12:54:49,522 basehttp 124 "DELETE /addresses/1/ HTTP/1.1" 500 84498
+ERROR 2019-04-27 12:54:49,974 exception 135 Internal Server Error: /addresses/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/utils/views.py", line 38, in wrapper
+    return view_func(requset, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: delete() got an unexpected keyword argument 'address_id'
+ERROR 2019-04-27 12:54:50,029 basehttp 124 "DELETE /addresses/1/ HTTP/1.1" 500 84498
+ERROR 2019-04-27 12:54:50,411 exception 135 Internal Server Error: /addresses/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/utils/views.py", line 38, in wrapper
+    return view_func(requset, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: delete() got an unexpected keyword argument 'address_id'
+ERROR 2019-04-27 12:54:50,446 basehttp 124 "DELETE /addresses/1/ HTTP/1.1" 500 84498
+ERROR 2019-04-27 12:54:57,057 exception 135 Internal Server Error: /addresses/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/utils/views.py", line 38, in wrapper
+    return view_func(requset, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: delete() got an unexpected keyword argument 'address_id'
+ERROR 2019-04-27 12:54:57,101 basehttp 124 "DELETE /addresses/1/ HTTP/1.1" 500 84498
+INFO 2019-04-27 12:58:12,191 basehttp 124 "GET /addresses/ HTTP/1.1" 200 10746
+INFO 2019-04-27 12:58:12,403 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 12:58:55,227 basehttp 124 "GET /addresses/ HTTP/1.1" 200 10746
+INFO 2019-04-27 12:58:56,889 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+ERROR 2019-04-27 12:58:59,639 exception 135 Internal Server Error: /addresses/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/utils/views.py", line 38, in wrapper
+    return view_func(requset, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: delete() got an unexpected keyword argument 'address_id'
+ERROR 2019-04-27 12:58:59,687 basehttp 124 "DELETE /addresses/1/ HTTP/1.1" 500 84498
+ERROR 2019-04-27 12:59:00,219 exception 135 Internal Server Error: /addresses/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/utils/views.py", line 38, in wrapper
+    return view_func(requset, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: delete() got an unexpected keyword argument 'address_id'
+ERROR 2019-04-27 12:59:00,262 basehttp 124 "DELETE /addresses/1/ HTTP/1.1" 500 84498
+INFO 2019-04-27 13:03:36,107 basehttp 124 "GET /addresses/ HTTP/1.1" 200 10746
+INFO 2019-04-27 13:03:36,385 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+ERROR 2019-04-27 13:03:38,588 views 212 save() missing 1 required positional argument: 'self'
+INFO 2019-04-27 13:03:38,589 basehttp 124 "DELETE /addresses/1/ HTTP/1.1" 200 66
+ERROR 2019-04-27 13:03:45,197 views 212 save() missing 1 required positional argument: 'self'
+INFO 2019-04-27 13:03:45,198 basehttp 124 "DELETE /addresses/2/ HTTP/1.1" 200 66
+INFO 2019-04-27 13:03:48,638 basehttp 124 "GET /addresses/ HTTP/1.1" 200 10746
+INFO 2019-04-27 13:03:48,773 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+ERROR 2019-04-27 13:03:51,769 views 212 save() missing 1 required positional argument: 'self'
+INFO 2019-04-27 13:03:51,770 basehttp 124 "DELETE /addresses/2/ HTTP/1.1" 200 66
+INFO 2019-04-27 13:06:17,606 basehttp 124 "GET /addresses/ HTTP/1.1" 200 10746
+INFO 2019-04-27 13:06:17,835 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 13:06:29,714 basehttp 124 "DELETE /addresses/1/ HTTP/1.1" 200 63
+INFO 2019-04-27 13:06:45,096 basehttp 124 "GET /areas/120000/ HTTP/1.1" 200 143
+INFO 2019-04-27 13:06:47,427 basehttp 124 "GET /areas/120100/ HTTP/1.1" 200 839
+WARNING 2019-04-27 13:07:05,416 basehttp 124 "POST /addresses/create/ HTTP/1.1" 403 18
+WARNING 2019-04-27 13:07:07,732 basehttp 124 "POST /addresses/create/ HTTP/1.1" 403 18
+INFO 2019-04-27 13:07:18,660 basehttp 124 "GET /areas/140000/ HTTP/1.1" 200 603
+INFO 2019-04-27 13:07:19,827 basehttp 124 "GET /areas/140300/ HTTP/1.1" 200 303
+INFO 2019-04-27 13:07:34,293 basehttp 124 "POST /addresses/create/ HTTP/1.1" 200 260
+INFO 2019-04-27 13:07:34,354 basehttp 124 "GET /addresses/ HTTP/1.1" 200 10741
+INFO 2019-04-27 13:07:34,485 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 13:08:02,328 basehttp 124 "PUT /addresses/2/default/ HTTP/1.1" 200 75
+INFO 2019-04-27 13:08:04,670 basehttp 124 "DELETE /addresses/3/ HTTP/1.1" 200 63
+INFO 2019-04-27 13:08:05,454 basehttp 124 "DELETE /addresses/2/ HTTP/1.1" 200 63
+INFO 2019-04-27 13:09:56,695 basehttp 124 "GET /areas/310000/ HTTP/1.1" 200 143
+INFO 2019-04-27 13:09:58,253 basehttp 124 "GET /areas/310100/ HTTP/1.1" 200 839
+INFO 2019-04-27 13:10:20,283 basehttp 124 "POST /addresses/create/ HTTP/1.1" 200 272
+INFO 2019-04-27 13:10:20,355 basehttp 124 "GET /addresses/ HTTP/1.1" 200 10556
+INFO 2019-04-27 13:10:20,446 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-27 13:10:23,455 basehttp 124 "PUT /addresses/4/default/ HTTP/1.1" 200 75
