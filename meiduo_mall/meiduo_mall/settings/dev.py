@@ -46,6 +46,8 @@ INSTALLED_APPS = [
     'areas',
     # 添加 django-cors-headers 的配置内容, 使其可以进行cors跨域
     'corsheaders',
+    'contents',
+    'goods',
 ]
 # 中间件
 MIDDLEWARE = [

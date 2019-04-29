@@ -29,16 +29,16 @@
                     <span>|</span>
                     <a href="user_center_info.html">用户中心</a>
                     <span>|</span>
-                    <a href="../staic/cart.html">我的购物车</a>
+                    <a href="../static/cart.html">我的购物车</a>
                     <span>|</span>
-                    <a href="../staic/user_center_order.html">我的订单</a>
+                    <a href="../static/user_center_order.html">我的订单</a>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="search_bar clearfix">
-        <a href="index.html" class="logo fl"><img src="{{ static('images/logo.png')}}"></a>
+        <a href="index.html" class="logo fl"><img src="../static/images/logo.png"></a>
         <div class="search_wrap fl">
             <form method="get" action="/search/" class="search_con">
                 <input type="text" class="input_text fl" name="q" placeholder="搜索商品">
@@ -56,6 +56,7 @@
     <div class="main_con clearfix">
         <div class="left_menu_con clearfix">
             <h3>用户中心</h3>
+            <!-- user_center_pass.html  -->
             <ul>
                 <li><a href="{{ url('users:info') }}">· 个人信息</a></li>
                 <li><a href="../static/user_center_order.html">· 全部订单</a></li>
@@ -71,7 +72,7 @@
                         {{ csrf_input }}
                         <div class="form_group">
                             <label>当前密码：</label>
-                            <input v-model="old_pwd" @blur="check_opwd" type="password" name="old_pwd">
+                            <input v-model="old_pwd" @blur="check_opwd" type="password" name="old_password">
                             <span v-show="error_opwd" class="old_pwd_error">请填写当前密码</span>
                             {% if origin_pwd_errmsg %}
                                 <span class="old_pwd_error">{{ origin_pwd_errmsg }}</span>
@@ -79,12 +80,12 @@
                         </div>
                         <div class="form_group">
                             <label>新密码：</label>
-                            <input v-model="new_pwd" @blur="check_pwd" type="password" name="new_pwd">
+                            <input v-model="new_pwd" @blur="check_pwd" type="password" name="new_password">
                             <span v-show="error_pwd" class="new_pwd_error">密码最少8位，最长20位</span>
                         </div>
                         <div class="form_group">
                             <label>确认新密码：</label>
-                            <input v-model="new_cpwd" @blur="check_cpwd" type="password" name="new_cpwd">
+                            <input v-model="new_cpwd" @blur="check_cpwd" type="password" name="new_password2">
                             <span v-show="error_cpwd" class="new_cpwd_error">两次输入的密码不一致</span>
                             {% if change_pwd_errmsg %}
                                 <span class="new_cpwd_error">{{ change_pwd_errmsg }}</span>

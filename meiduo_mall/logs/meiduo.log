@@ -6877,3 +6877,105 @@ INFO 2019-04-27 13:10:20,283 basehttp 124 "POST /addresses/create/ HTTP/1.1" 200
 INFO 2019-04-27 13:10:20,355 basehttp 124 "GET /addresses/ HTTP/1.1" 200 10556
 INFO 2019-04-27 13:10:20,446 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
 INFO 2019-04-27 13:10:23,455 basehttp 124 "PUT /addresses/4/default/ HTTP/1.1" 200 75
+INFO 2019-04-29 01:00:38,661 basehttp 124 "GET /addresses/ HTTP/1.1" 200 10556
+INFO 2019-04-29 01:00:40,116 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2019-04-29 01:00:40,307 base 152 Not Found: /favicon.ico
+WARNING 2019-04-29 01:00:40,308 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 5662
+INFO 2019-04-29 01:00:51,635 basehttp 124 "GET /areas/320000/ HTTP/1.1" 200 701
+INFO 2019-04-29 01:00:52,806 basehttp 124 "GET /areas/320300/ HTTP/1.1" 200 545
+INFO 2019-04-29 01:01:03,873 basehttp 124 "POST /addresses/create/ HTTP/1.1" 200 266
+INFO 2019-04-29 01:01:03,920 basehttp 124 "GET /addresses/ HTTP/1.1" 200 10750
+INFO 2019-04-29 01:01:04,013 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-29 01:01:08,136 basehttp 124 "PUT /addresses/5/default/ HTTP/1.1" 200 75
+INFO 2019-04-29 01:01:11,906 basehttp 124 "GET /addresses/ HTTP/1.1" 200 10750
+INFO 2019-04-29 01:01:11,994 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-29 01:01:22,013 basehttp 124 "PUT /addresses/4/default/ HTTP/1.1" 200 75
+INFO 2019-04-29 01:01:28,775 basehttp 124 "GET /addresses/ HTTP/1.1" 200 10750
+INFO 2019-04-29 01:01:28,881 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-29 06:29:17,549 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-04-29 06:29:18,077 base 152 Not Found: /carts/simple/
+WARNING 2019-04-29 06:29:18,077 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 5668
+INFO 2019-04-29 06:29:21,361 basehttp 124 "GET /info/ HTTP/1.1" 200 8362
+WARNING 2019-04-29 06:29:21,482 base 152 Not Found: /browse_histories/
+WARNING 2019-04-29 06:29:21,484 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 5680
+INFO 2019-04-29 06:29:23,953 basehttp 124 "GET /addresses/ HTTP/1.1" 200 10750
+INFO 2019-04-29 06:29:24,100 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-04-29 06:29:25,187 basehttp 124 "GET /password/ HTTP/1.1" 200 5193
+WARNING 2019-04-29 06:30:33,628 basehttp 124 "POST /password/ HTTP/1.1" 403 18
+WARNING 2019-04-29 06:31:04,220 basehttp 124 "POST /password/ HTTP/1.1" 403 18
+INFO 2019-04-29 06:59:43,136 basehttp 124 "GET /password/ HTTP/1.1" 200 5193
+INFO 2019-04-29 06:59:44,107 basehttp 124 "GET /password/ HTTP/1.1" 200 5193
+INFO 2019-04-29 06:59:52,074 basehttp 124 "GET /password/ HTTP/1.1" 200 5193
+WARNING 2019-04-29 07:00:17,278 basehttp 124 "POST /password/ HTTP/1.1" 403 18
+INFO 2019-04-29 07:00:20,398 basehttp 124 "GET /password/ HTTP/1.1" 200 5193
+INFO 2019-04-29 07:00:21,314 basehttp 124 "GET /password/ HTTP/1.1" 200 5193
+INFO 2019-04-29 07:02:55,826 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-04-29 07:02:56,445 base 152 Not Found: /carts/simple/
+WARNING 2019-04-29 07:02:56,455 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 5668
+INFO 2019-04-29 07:02:57,858 basehttp 124 "GET /info/ HTTP/1.1" 200 8362
+WARNING 2019-04-29 07:02:58,066 base 152 Not Found: /browse_histories/
+WARNING 2019-04-29 07:02:58,066 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 5680
+INFO 2019-04-29 07:03:00,811 basehttp 124 "GET /password/ HTTP/1.1" 200 5256
+INFO 2019-04-29 07:03:24,209 basehttp 124 "GET /password/ HTTP/1.1" 200 5256
+ERROR 2019-04-29 07:03:41,925 exception 135 Internal Server Error: /password/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/apps/users/views.py", line 60, in post
+    response = render(reverse('users:login'))
+TypeError: render() missing 1 required positional argument: 'template_name'
+ERROR 2019-04-29 07:03:42,003 basehttp 124 "POST /password/ HTTP/1.1" 500 90466
+INFO 2019-04-29 07:04:39,474 basehttp 124 "GET /password/ HTTP/1.1" 302 0
+INFO 2019-04-29 07:04:39,501 basehttp 124 "GET /login/?next=/password/ HTTP/1.1" 200 4192
+INFO 2019-04-29 07:04:53,610 basehttp 124 "POST /login/?next=/password/ HTTP/1.1" 200 4307
+INFO 2019-04-29 07:05:04,968 basehttp 124 "POST /login/?next=/password/ HTTP/1.1" 302 0
+INFO 2019-04-29 07:05:04,991 basehttp 124 "GET /password/ HTTP/1.1" 200 5256
+ERROR 2019-04-29 07:05:29,705 exception 135 Internal Server Error: /password/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/apps/users/views.py", line 60, in post
+    response = render(reverse('users:login'))
+TypeError: render() missing 1 required positional argument: 'template_name'
+ERROR 2019-04-29 07:05:29,772 basehttp 124 "POST /password/ HTTP/1.1" 500 90476
+INFO 2019-04-29 07:06:53,849 basehttp 124 "POST /password/ HTTP/1.1" 302 0
+INFO 2019-04-29 07:06:53,877 basehttp 124 "GET /login/?next=/password/ HTTP/1.1" 200 4192
+INFO 2019-04-29 07:07:10,230 basehttp 124 "POST /login/?next=/password/ HTTP/1.1" 302 0
+INFO 2019-04-29 07:07:10,265 basehttp 124 "GET /password/ HTTP/1.1" 200 5256
+INFO 2019-04-29 07:09:07,956 basehttp 124 "POST /password/ HTTP/1.1" 302 0
+INFO 2019-04-29 07:09:07,978 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+INFO 2019-04-29 07:13:30,735 basehttp 124 "POST /login/ HTTP/1.1" 200 4307
+INFO 2019-04-29 07:13:40,154 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-04-29 07:13:40,185 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-04-29 07:13:40,436 base 152 Not Found: /carts/simple/
+WARNING 2019-04-29 07:13:40,437 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 5668
+INFO 2019-04-29 07:13:41,950 basehttp 124 "GET /info/ HTTP/1.1" 200 8362
+WARNING 2019-04-29 07:13:42,112 base 152 Not Found: /browse_histories/
+WARNING 2019-04-29 07:13:42,117 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 5680
+INFO 2019-04-29 07:13:43,931 basehttp 124 "GET /password/ HTTP/1.1" 200 5256
+INFO 2019-04-29 07:14:03,552 basehttp 124 "POST /password/ HTTP/1.1" 302 0
+INFO 2019-04-29 07:14:03,556 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+INFO 2019-04-29 07:14:23,593 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-04-29 07:14:23,597 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-04-29 07:14:23,858 base 152 Not Found: /carts/simple/
+WARNING 2019-04-29 07:14:23,859 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 5668
