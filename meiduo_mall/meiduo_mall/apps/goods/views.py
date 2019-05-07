@@ -6,12 +6,11 @@ from django.shortcuts import render
 from django.utils import timezone
 from django.views import View
 
-from goods.models import GoodsCategory, SKU
+from goods.models import GoodsCategory, SKU, GoodsVisitCount
 from goods.utils import get_categories, get_breadcrumb, get_goods_and_spec
 from meiduo_mall.utils.response_code import RETCODE
 import logging
 logger = logging.getLogger('django')
-
 
 
 class DetailVisitView(View):
@@ -24,14 +23,14 @@ class DetailVisitView(View):
             category = GoodsCategory.objects.get(id=category_id)
 
         except GoodsCategory.DoesNotExist:
-            return http.HttpResponseForbidden('对应的商品类型不存在')
+            return http.HttpResponseForbidden('缺少必传参数')
         # 2.创建当前时间
 
         # 先获取时间对象
         t = timezone.localtime()
 
         # 根据时间对象拼接日期的字符串形式:
-        today_str = '%d-%02d-%02d'%(t.year, t.month, t.day)
+        today_str = '%d-%02d-%02d' % (t.year, t.month, t.day)
 
         # 将字符串转为日期格式:
         today_date = datetime.datetime.strptime(today_str, '%Y-%m-%d')
@@ -40,7 +39,7 @@ class DetailVisitView(View):
         try:
 
             # 查询今天该类别的商品的访问量
-            category.goodsvisitcount_set.get(date=today_date)
+            counts_data = category.goodsvisitcount_set.get(date=today_date)
 
         except GoodsVisitCount.DoesNotExist:
             # 4.如果不存在记录，新建一个
@@ -58,10 +57,7 @@ class DetailVisitView(View):
             return http.HttpResponseServerError('服务器异常')
 
         # 6.返回
-        return http.JsonResponse({
-            'code':RETCODE.OK,
-            'errmsg':'ok'
-        })
+        return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK'})
 
 
 class DetailView(View):

@@ -5,6 +5,8 @@ from django.views import View
 from django import http
 import re
 import json
+
+from goods.models import SKU
 from meiduo_mall.utils.response_code import RETCODE
 from meiduo_mall.utils.views import LoginRequiredMixin, LoginRequiredJSONMixin
 from .models import User, Address
@@ -13,6 +15,72 @@ from django_redis import get_redis_connection
 import logging
 
 logger = logging.getLogger('django')
+
+
+class UserBrowseHistory(LoginRequiredJSONMixin, View):
+    """用户浏览记录"""
+
+    def get(self, request):
+        """获取用户浏览记录"""
+        # 1. 创建redis链接对象
+        redis_conn = get_redis_connection('history')
+
+        # 2. 获取sku_ids(value): lrange(key, 开始位置, 结束为止)
+        sku_ids = redis_conn.lrange('history_%s' % request.user.id, 0, -1)
+
+        # 3. 遍历:
+        skus = []
+        for sku_is in sku_ids:
+            # 4. 根据id获取商品信息
+            sku = SKU.objects.get(id=sku_is)
+
+            # 5. 拼接商品信息
+            skus.append({
+                'id': sku.id,
+                'name': sku.name,
+                'default_image_url': sku.default_image_url,
+                'price': sku.price
+            })
+
+            # 6.返回
+            return http.JsonResponse({
+                'code': RETCODE.OK,
+                'errmsg': 'ok',
+                'skus': skus
+            })
+
+    def post(self, request):
+        """保存用户浏览记录"""
+        # 接收参数
+        json_dict = json.loads(request.body.decode())
+        sku_id = json_dict.get('sku_id')
+
+        # 校验参数
+        try:
+            SKU.objects.get(id=sku_id)
+
+        except SKU.DoesNotExist:
+            return http.HttpResponseForbidden('sku_id不正确')
+
+        # 链接redis
+        redis_conn = get_redis_connection('history')
+        pl = redis_conn.pipeline()
+        user_id = request.user.id
+
+        # 4.去重
+        pl.lrem('history_%s' % user_id, 0, sku_id)
+
+        # 5.存储
+        pl.lpush('history_%s' % user_id, sku_id)
+
+        # 6.截取
+        pl.ltrim('history_%s' % user_id, 0, 4)
+
+        # 管道执行:
+        pl.execute()
+
+        # 7.返回
+        return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'ok'})
 
 
 class ChangePasswordView(LoginRequiredMixin, View):
@@ -39,7 +107,7 @@ class ChangePasswordView(LoginRequiredMixin, View):
 
         except Exception as e:
             logger.error(e)
-            return render(request, 'user_center_pass.html', {'origin_pwd_errmsg':'原始密码错误'})
+            return render(request, 'user_center_pass.html', {'origin_pwd_errmsg': '原始密码错误'})
 
         if not re.match(r'^[0-9A-Za-z]{8,20}$', new_password):
             return http.HttpResponseForbidden('密码最少8位，最长20位')
@@ -63,11 +131,6 @@ class ChangePasswordView(LoginRequiredMixin, View):
 
         # 响应密码修改结果：重定向到登录界面
         return response
-
-
-
-
-
 
 
 class UpdateTitleAddressView(LoginRequiredJSONMixin, View):

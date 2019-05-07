@@ -7297,3 +7297,80 @@ WARNING 2019-05-06 13:57:18,576 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 6
 INFO 2019-05-06 13:57:18,602 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
 INFO 2019-05-06 13:57:43,705 basehttp 124 "GET /search/?q=wifi HTTP/1.1" 200 6737
 INFO 2019-05-06 13:58:37,722 basehttp 124 "GET /search/?q=A HTTP/1.1" 200 3941
+INFO 2019-05-07 01:44:31,340 basehttp 124 "GET / HTTP/1.1" 200 124954
+WARNING 2019-05-07 01:44:32,441 base 152 Not Found: /carts/simple/
+WARNING 2019-05-07 01:44:32,445 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 6370
+INFO 2019-05-07 01:45:13,174 basehttp 124 "GET /detail/6/ HTTP/1.1" 200 18942
+WARNING 2019-05-07 01:45:13,237 base 152 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2019-05-07 01:45:13,239 basehttp 124 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 6448
+WARNING 2019-05-07 01:45:13,274 base 152 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2019-05-07 01:45:13,275 basehttp 124 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 6448
+INFO 2019-05-07 01:45:13,292 basehttp 124 "GET /static/js/detail.js HTTP/1.1" 200 15702
+INFO 2019-05-07 01:45:13,302 basehttp 124 "GET /static/images/selected.png HTTP/1.1" 200 1060
+WARNING 2019-05-07 01:45:13,481 base 152 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2019-05-07 01:45:13,481 basehttp 124 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 6448
+WARNING 2019-05-07 01:45:13,487 base 152 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2019-05-07 01:45:13,491 basehttp 124 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 6448
+WARNING 2019-05-07 01:45:13,500 base 152 Not Found: /browse_histories/
+WARNING 2019-05-07 01:45:13,514 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 6383
+WARNING 2019-05-07 01:45:13,518 base 152 Not Found: /detail/visit/115/
+WARNING 2019-05-07 01:45:13,534 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 404 6383
+INFO 2019-05-07 01:45:13,524 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-05-07 01:45:13,543 base 152 Not Found: /comment/6/
+WARNING 2019-05-07 01:45:13,543 base 152 Not Found: /carts/simple/
+WARNING 2019-05-07 01:45:13,546 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 6370
+WARNING 2019-05-07 01:45:13,550 basehttp 124 "GET /comment/6/ HTTP/1.1" 404 6361
+WARNING 2019-05-07 01:45:16,978 base 152 Not Found: /detail/6/detail.html
+WARNING 2019-05-07 01:45:16,978 basehttp 124 "GET /detail/6/detail.html HTTP/1.1" 404 6391
+WARNING 2019-05-07 01:45:18,525 base 152 Not Found: /browse_histories/
+WARNING 2019-05-07 01:45:18,527 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 6383
+WARNING 2019-05-07 01:45:18,539 base 152 Not Found: /detail/visit/115/
+WARNING 2019-05-07 01:45:18,545 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 404 6383
+INFO 2019-05-07 02:07:41,128 basehttp 124 "GET /detail/6/ HTTP/1.1" 200 18942
+WARNING 2019-05-07 02:07:41,264 base 152 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2019-05-07 02:07:41,269 basehttp 124 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 6638
+WARNING 2019-05-07 02:07:41,268 base 152 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2019-05-07 02:07:41,270 basehttp 124 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 6638
+WARNING 2019-05-07 02:07:41,436 base 152 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2019-05-07 02:07:41,438 basehttp 124 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 6638
+WARNING 2019-05-07 02:07:41,446 base 152 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2019-05-07 02:07:41,446 basehttp 124 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 6638
+WARNING 2019-05-07 02:07:41,482 base 152 Not Found: /browse_histories/
+INFO 2019-05-07 02:07:41,494 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-05-07 02:07:41,498 basehttp 124 "POST /browse_histories/ HTTP/1.1" 404 6573
+WARNING 2019-05-07 02:07:41,514 base 152 Not Found: /carts/simple/
+WARNING 2019-05-07 02:07:41,517 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 6560
+WARNING 2019-05-07 02:07:41,540 base 152 Not Found: /comment/6/
+WARNING 2019-05-07 02:07:41,544 basehttp 124 "GET /comment/6/ HTTP/1.1" 404 6551
+INFO 2019-05-07 02:07:41,584 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-05-07 02:41:17,322 basehttp 124 "GET / HTTP/1.1" 200 124954
+WARNING 2019-05-07 02:41:18,576 base 152 Not Found: /carts/simple/
+WARNING 2019-05-07 02:41:18,577 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 6727
+INFO 2019-05-07 02:41:22,094 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 19868
+WARNING 2019-05-07 02:41:22,291 base 152 Not Found: /carts/simple/
+WARNING 2019-05-07 02:41:22,298 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 6727
+INFO 2019-05-07 02:41:22,334 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+INFO 2019-05-07 02:41:25,395 basehttp 124 "GET /detail/5/ HTTP/1.1" 200 18941
+WARNING 2019-05-07 02:41:25,436 base 152 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2019-05-07 02:41:25,436 basehttp 124 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 6805
+WARNING 2019-05-07 02:41:25,488 base 152 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2019-05-07 02:41:25,492 basehttp 124 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 6805
+WARNING 2019-05-07 02:41:25,618 base 152 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2019-05-07 02:41:25,622 basehttp 124 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 6805
+INFO 2019-05-07 02:41:25,625 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-05-07 02:41:25,677 base 152 Not Found: /comment/5/
+WARNING 2019-05-07 02:41:25,688 base 152 Not Found: /carts/simple/
+WARNING 2019-05-07 02:41:25,698 basehttp 124 "GET /comment/5/ HTTP/1.1" 404 6718
+WARNING 2019-05-07 02:41:25,711 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 6727
+INFO 2019-05-07 02:41:25,720 basehttp 124 "POST /browse_histories/ HTTP/1.1" 200 29
+INFO 2019-05-07 02:41:25,776 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+WARNING 2019-05-07 02:41:31,663 base 152 Not Found: /detail/static/cart.html
+WARNING 2019-05-07 02:41:31,664 basehttp 124 "GET /detail/static/cart.html HTTP/1.1" 404 6757
+INFO 2019-05-07 02:41:33,059 basehttp 124 "POST /browse_histories/ HTTP/1.1" 200 29
+INFO 2019-05-07 02:41:33,072 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+WARNING 2019-05-07 02:41:34,078 base 152 Not Found: /detail/5/user_center_info.html
+WARNING 2019-05-07 02:41:34,093 basehttp 124 "GET /detail/5/user_center_info.html HTTP/1.1" 404 6778
+INFO 2019-05-07 02:41:35,503 basehttp 124 "POST /browse_histories/ HTTP/1.1" 200 29
+INFO 2019-05-07 02:41:35,534 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-05-07 02:41:38,675 basehttp 124 "GET /info/ HTTP/1.1" 200 6321
+INFO 2019-05-07 02:41:38,810 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 296
