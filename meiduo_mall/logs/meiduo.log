@@ -6979,3 +6979,321 @@ INFO 2019-04-29 07:14:23,593 basehttp 124 "POST /login/ HTTP/1.1" 302 0
 INFO 2019-04-29 07:14:23,597 basehttp 124 "GET / HTTP/1.1" 200 34181
 WARNING 2019-04-29 07:14:23,858 base 152 Not Found: /carts/simple/
 WARNING 2019-04-29 07:14:23,859 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 5668
+INFO 2019-05-06 11:26:01,976 basehttp 124 "GET / HTTP/1.1" 200 34181
+INFO 2019-05-06 11:26:02,113 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-06 11:26:02,114 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-06 11:26:02,125 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-06 11:26:02,131 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-06 11:26:02,142 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-06 11:26:02,169 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-05-06 11:26:02,204 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-06 11:26:02,205 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-05-06 11:26:02,284 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-06 11:26:03,301 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 304 0
+INFO 2019-05-06 11:26:03,302 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 304 0
+INFO 2019-05-06 11:26:03,308 basehttp 124 "GET /static/js/base.js HTTP/1.1" 304 0
+INFO 2019-05-06 11:26:03,311 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2019-05-06 11:26:03,315 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2019-05-06 11:26:03,317 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-05-06 11:26:03,320 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 304 0
+INFO 2019-05-06 11:26:03,322 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 304 0
+INFO 2019-05-06 11:26:03,326 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 304 0
+INFO 2019-05-06 11:26:03,331 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 304 0
+INFO 2019-05-06 11:26:03,334 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 304 0
+INFO 2019-05-06 11:26:03,337 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2019-05-06 11:26:03,341 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2019-05-06 11:26:03,346 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2019-05-06 11:26:03,349 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 304 0
+INFO 2019-05-06 11:26:03,352 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 304 0
+INFO 2019-05-06 11:26:03,357 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 304 0
+INFO 2019-05-06 11:26:03,359 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 304 0
+WARNING 2019-05-06 11:26:03,430 base 152 Not Found: /carts/simple/
+WARNING 2019-05-06 11:26:03,433 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 5668
+WARNING 2019-05-06 11:26:03,519 base 152 Not Found: /favicon.ico
+WARNING 2019-05-06 11:26:03,519 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 5662
+INFO 2019-05-06 11:37:42,219 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-05-06 11:37:43,577 base 152 Not Found: /carts/simple/
+WARNING 2019-05-06 11:37:43,584 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 5668
+WARNING 2019-05-06 11:37:43,589 base 152 Not Found: /favicon.ico
+WARNING 2019-05-06 11:37:43,589 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 5662
+INFO 2019-05-06 11:37:51,095 basehttp 124 "GET /info/ HTTP/1.1" 200 8362
+INFO 2019-05-06 11:37:51,142 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2019-05-06 11:37:51,162 basehttp 124 "GET /static/images/goods/goods006.jpg HTTP/1.1" 304 0
+INFO 2019-05-06 11:37:51,165 basehttp 124 "GET /static/images/goods/goods007.jpg HTTP/1.1" 304 0
+INFO 2019-05-06 11:37:51,179 basehttp 124 "GET /static/images/left_bg.jpg HTTP/1.1" 304 0
+INFO 2019-05-06 11:37:51,182 basehttp 124 "GET /static/images/shop_cart.png HTTP/1.1" 304 0
+WARNING 2019-05-06 11:37:51,244 base 152 Not Found: /browse_histories/
+WARNING 2019-05-06 11:37:51,249 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 5680
+INFO 2019-05-06 11:37:53,925 basehttp 124 "GET /password/ HTTP/1.1" 200 5256
+INFO 2019-05-06 11:38:14,925 basehttp 124 "POST /password/ HTTP/1.1" 302 0
+INFO 2019-05-06 11:38:14,937 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+INFO 2019-05-06 11:38:14,955 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 304 0
+INFO 2019-05-06 11:38:14,959 basehttp 124 "GET /static/js/login.js HTTP/1.1" 304 0
+INFO 2019-05-06 11:38:14,976 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 304 0
+INFO 2019-05-06 11:38:14,977 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 304 0
+INFO 2019-05-06 11:38:14,979 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 304 0
+INFO 2019-05-06 11:38:31,636 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-05-06 11:38:31,640 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-05-06 11:38:31,799 base 152 Not Found: /carts/simple/
+WARNING 2019-05-06 11:38:31,801 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 5668
+INFO 2019-05-06 11:38:33,445 basehttp 124 "GET /info/ HTTP/1.1" 200 8362
+WARNING 2019-05-06 11:38:33,518 base 152 Not Found: /browse_histories/
+WARNING 2019-05-06 11:38:33,518 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 5680
+INFO 2019-05-06 11:38:34,823 basehttp 124 "GET /password/ HTTP/1.1" 200 5256
+INFO 2019-05-06 11:38:53,385 basehttp 124 "POST /password/ HTTP/1.1" 302 0
+INFO 2019-05-06 11:38:53,388 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+INFO 2019-05-06 11:39:08,864 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-05-06 11:39:08,868 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-05-06 11:39:09,033 base 152 Not Found: /carts/simple/
+WARNING 2019-05-06 11:39:09,033 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 5668
+INFO 2019-05-06 11:39:14,936 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2019-05-06 11:39:14,941 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-05-06 11:39:15,044 base 152 Not Found: /carts/simple/
+WARNING 2019-05-06 11:39:15,045 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 5668
+INFO 2019-05-06 11:39:16,498 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+INFO 2019-05-06 11:39:26,858 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-05-06 11:39:26,861 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-05-06 11:39:27,025 base 152 Not Found: /carts/simple/
+WARNING 2019-05-06 11:39:27,027 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 5668
+INFO 2019-05-06 13:00:32,692 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-05-06 13:00:33,459 base 152 Not Found: /carts/simple/
+WARNING 2019-05-06 13:00:33,461 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 5668
+INFO 2019-05-06 13:00:39,175 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-05-06 13:00:39,302 base 152 Not Found: /carts/simple/
+WARNING 2019-05-06 13:00:39,303 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 5668
+INFO 2019-05-06 13:00:53,533 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-05-06 13:00:53,667 base 152 Not Found: /carts/simple/
+WARNING 2019-05-06 13:00:53,667 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 5668
+WARNING 2019-05-06 13:00:59,275 basehttp 124 "GET /static/list.html HTTP/1.1" 404 1640
+INFO 2019-05-06 13:05:27,879 basehttp 124 "GET / HTTP/1.1" 200 124954
+WARNING 2019-05-06 13:05:28,599 base 152 Not Found: /carts/simple/
+WARNING 2019-05-06 13:05:28,601 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 5668
+ERROR 2019-05-06 13:13:13,956 exception 135 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/apps/goods/views.py", line 91, in get
+    return render(request, 'list.html', context=context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/templates/list.html", line 311, in top-level template code
+    <a href="{{ url('goods:detail', args=(sku.id,)) }}">
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail' not found. 'detail' is not a valid view function or pattern name.
+ERROR 2019-05-06 13:13:14,082 basehttp 124 "GET /list/115/1/ HTTP/1.1" 500 177868
+INFO 2019-05-06 13:14:07,438 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+INFO 2019-05-06 13:14:15,923 basehttp 124 "GET /list/115/1 HTTP/1.1" 301 0
+ERROR 2019-05-06 13:14:16,194 exception 135 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/apps/goods/views.py", line 91, in get
+    return render(request, 'list.html', context=context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/templates/list.html", line 311, in top-level template code
+    <a href="{{ url('goods:detail', args=(sku.id,)) }}">
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail' not found. 'detail' is not a valid view function or pattern name.
+ERROR 2019-05-06 13:14:16,288 basehttp 124 "GET /list/115/1/ HTTP/1.1" 500 177726
+ERROR 2019-05-06 13:21:28,988 exception 135 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/apps/goods/views.py", line 114, in get
+    return render(request, 'list.html', context=context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/templates/list.html", line 311, in top-level template code
+    <a href="{{ url('goods:detail', args=(sku.id,)) }}">
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail' not found. 'detail' is not a valid view function or pattern name.
+ERROR 2019-05-06 13:21:29,103 basehttp 124 "GET /list/115/1/ HTTP/1.1" 500 177864
+INFO 2019-05-06 13:21:36,730 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+WARNING 2019-05-06 13:21:46,643 base 152 Not Found: /list/115/
+WARNING 2019-05-06 13:21:46,645 basehttp 124 "GET /list/115/ HTTP/1.1" 404 6056
+ERROR 2019-05-06 13:21:53,314 exception 135 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/apps/goods/views.py", line 114, in get
+    return render(request, 'list.html', context=context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/templates/list.html", line 311, in top-level template code
+    <a href="{{ url('goods:detail', args=(sku.id,)) }}">
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail' not found. 'detail' is not a valid view function or pattern name.
+ERROR 2019-05-06 13:21:53,422 basehttp 124 "GET /list/115/1/ HTTP/1.1" 500 177729
+INFO 2019-05-06 13:42:55,524 basehttp 124 "GET / HTTP/1.1" 200 124954
+WARNING 2019-05-06 13:42:56,838 base 152 Not Found: /carts/simple/
+WARNING 2019-05-06 13:42:56,840 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 6176
+ERROR 2019-05-06 13:43:06,488 exception 135 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/haystack/views.py", line 51, in __call__
+    return self.create_response()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/haystack/views.py", line 152, in create_response
+    return render(self.request, self.template, context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: search/search.html
+ERROR 2019-05-06 13:43:06,553 basehttp 124 "GET /search/?q=wifi HTTP/1.1" 500 95673
+INFO 2019-05-06 13:45:00,644 basehttp 124 "GET /search/?q=wifi HTTP/1.1" 200 8457
+INFO 2019-05-06 13:47:02,943 basehttp 124 "GET / HTTP/1.1" 200 124954
+WARNING 2019-05-06 13:47:03,229 base 152 Not Found: /carts/simple/
+WARNING 2019-05-06 13:47:03,230 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 6176
+INFO 2019-05-06 13:47:07,020 basehttp 124 "GET /search/?q=wifi HTTP/1.1" 200 6737
+INFO 2019-05-06 13:47:09,378 basehttp 124 "GET /search/?q=wifi&page=2 HTTP/1.1" 200 5583
+INFO 2019-05-06 13:48:06,955 basehttp 124 "GET /search/?q=wifi&page=2 HTTP/1.1" 200 5583
+INFO 2019-05-06 13:48:12,971 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+ERROR 2019-05-06 13:48:22,437 exception 135 Internal Server Error: /list/115/1/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/apps/goods/views.py", line 140, in get
+    return render(request, 'list.html', context=context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/projects/meiduo_mall/meiduo_mall/templates/list.html", line 311, in top-level template code
+    <a href="{{ url('goods:detail', args=(sku.id,)) }}">
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail' not found. 'detail' is not a valid view function or pattern name.
+ERROR 2019-05-06 13:48:22,559 basehttp 124 "GET /list/115/1/ HTTP/1.1" 500 178434
+WARNING 2019-05-06 13:56:23,187 base 152 Not Found: /carts/simple/
+WARNING 2019-05-06 13:56:23,187 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 6370
+INFO 2019-05-06 13:56:39,972 basehttp 124 "GET / HTTP/1.1" 200 124954
+WARNING 2019-05-06 13:56:40,847 base 152 Not Found: /carts/simple/
+WARNING 2019-05-06 13:56:40,848 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 6370
+INFO 2019-05-06 13:56:44,110 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+WARNING 2019-05-06 13:56:56,393 base 152 Not Found: /list/115/
+WARNING 2019-05-06 13:56:56,393 basehttp 124 "GET /list/115/ HTTP/1.1" 404 6358
+INFO 2019-05-06 13:57:13,669 basehttp 124 "GET /list/115/3/ HTTP/1.1" 200 19079
+INFO 2019-05-06 13:57:13,728 basehttp 124 "GET /static/js/list.js HTTP/1.1" 200 2105
+WARNING 2019-05-06 13:57:13,900 base 152 Not Found: /carts/simple/
+WARNING 2019-05-06 13:57:13,902 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 6370
+INFO 2019-05-06 13:57:13,921 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+INFO 2019-05-06 13:57:17,122 basehttp 124 "GET /list/115/3/?sort=price HTTP/1.1" 200 19016
+WARNING 2019-05-06 13:57:17,208 base 152 Not Found: /carts/simple/
+WARNING 2019-05-06 13:57:17,209 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 6370
+INFO 2019-05-06 13:57:17,239 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+INFO 2019-05-06 13:57:18,464 basehttp 124 "GET /list/115/3/?sort=hot HTTP/1.1" 200 19075
+WARNING 2019-05-06 13:57:18,574 base 152 Not Found: /carts/simple/
+WARNING 2019-05-06 13:57:18,576 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 6370
+INFO 2019-05-06 13:57:18,602 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+INFO 2019-05-06 13:57:43,705 basehttp 124 "GET /search/?q=wifi HTTP/1.1" 200 6737
+INFO 2019-05-06 13:58:37,722 basehttp 124 "GET /search/?q=A HTTP/1.1" 200 3941
