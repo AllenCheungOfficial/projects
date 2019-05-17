@@ -6,6 +6,7 @@ from django import http
 import re
 import json
 
+from carts.utils import merge_cart_cookie_to_redis
 from goods.models import SKU
 from meiduo_mall.utils.response_code import RETCODE
 from meiduo_mall.utils.views import LoginRequiredMixin, LoginRequiredJSONMixin
@@ -644,7 +645,10 @@ class LoginView(View):
         # 将用户名写入到 cookie，有效期 15 天
         response.set_cookie('username', user.username, max_age=3600 * 24 * 15)
 
-        # 返回相应结果
+        # 合并购物车
+        response = merge_cart_cookie_to_redis(request=request, user=user, response=response)
+
+    # 返回相应结果
         return response
 
 

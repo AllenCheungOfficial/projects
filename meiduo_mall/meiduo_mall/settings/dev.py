@@ -47,9 +47,16 @@ INSTALLED_APPS = [
     # 添加 django-cors-headers 的配置内容, 使其可以进行cors跨域
     'corsheaders',
     'contents',
+    # 商品
     'goods',
     # 全文检索
     'haystack',
+    # 添加购物车子应用:
+    'carts',
+    # 订单页面
+    'orders',
+    # 支付宝
+    'payment',
 ]
 # 中间件
 MIDDLEWARE = [
@@ -192,6 +199,14 @@ CACHES = {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
     },
+
+    "carts": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://192.168.56.134:6379/4",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
 }
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
 SESSION_CACHE_ALIAS = "session"
@@ -313,3 +328,9 @@ HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
 
 # 可以在 dev.py 中添加如下代码, 用于决定每页显示数据条数:
 HAYSTACK_SEARCH_RESULTS_PER_PAGE = 5
+
+# 支付宝Aappid
+ALIPAY_APPID = '2016100100637690'
+ALIPAY_DEBUG = True
+ALIPAY_URL = 'https://openapi.alipaydev.com/gateway.do'
+ALIPAY_RETURN_URL = 'http://www.meiduo.site:8000/payment/status/'
