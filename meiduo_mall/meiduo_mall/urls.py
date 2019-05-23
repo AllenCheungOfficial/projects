@@ -49,4 +49,6 @@ urlpatterns = [
     url(r'^', include('orders.urls', namespace='orders')),
     # payment
     url(r'^', include('payment.urls')),
+    # admin
+    url('^meiduo_admin/', include('meiduo_admin.urls')),
 ]

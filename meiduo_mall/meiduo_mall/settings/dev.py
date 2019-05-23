@@ -9,8 +9,9 @@ https://docs.djangoproject.com/en/1.11/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.11/ref/settings/
 """
-
-import os, sys
+import datetime
+import os
+import sys
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -57,9 +58,13 @@ INSTALLED_APPS = [
     'orders',
     # 支付宝
     'payment',
+    # admin后台
+    'meiduo_admin',
 ]
 # 中间件
 MIDDLEWARE = [
+    # 添加 django-cors-headers 的配置内容, 使其可以进行cors跨域
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -68,8 +73,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    # 添加 django-cors-headers 的配置内容, 使其可以进行cors跨域
-    'corsheaders.middleware.CorsMiddleware',
+
 ]
 
 ROOT_URLCONF = 'meiduo_mall.urls'
@@ -268,25 +272,6 @@ QQ_CLIENT_ID = '101518219'
 QQ_CLIENT_SECRET = '418d84ebdc7241efb79536886ae95224'
 QQ_REDIRECT_URI = 'http://www.meiduo.site:8000/oauth_callback'
 
-CORS_ORIGIN_WHITELIST = (
-    # 白名单:
-    '127.0.0.1:8080',
-    'localhost:8080',
-
-    '127.0.0.1:8081',
-    'localhost:8081',
-
-    'localhost:8000',
-    '127.0.0.1:8000',
-
-    'www.meiduo.site:8080',
-    'www.meiduo.site:8000',
-    'www.meiduo.site',
-
-    '172.128.16.238:8001',
-)
-# 允许白名单中的 host 跨域请求时携带 cookie
-CORS_ALLOW_CREDENTIALS = True
 
 # 发送短信的相关设置, 这些设置是当用户没有发送相关字段时, 默认使用的内容:
 # 发送短信必须进行的设置:
@@ -334,3 +319,29 @@ ALIPAY_APPID = '2016100100637690'
 ALIPAY_DEBUG = True
 ALIPAY_URL = 'https://openapi.alipaydev.com/gateway.do'
 ALIPAY_RETURN_URL = 'http://www.meiduo.site:8000/payment/status/'
+
+
+# CORS 白名单
+CORS_ORIGIN_WHITELIST = (
+    '127.0.0.1:8080',
+    'localhost:8080',
+    'www.meiduo.site:8080',
+    'api.meiduo.site:8080'
+)
+CORS_ALLOW_CREDENTIALS = True  # 允许携带cookie
+
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.BasicAuthentication',
+    ),
+}
+
+JWT_AUTH = {
+    # timedelta  -- 一个时间段
+    # datetime -- 一个时间点
+    'JWT_EXPIRATION_DELTA': datetime.timedelta(days=1),
+    'JWT_RESPONSE_PAYLOAD_HANDLER': 'meiduo_admin.utils.response_handler.jwt_response_payload_handler', # 指明一个函数，该函数返回的结果就是最终obtain_jwt_token返回的结果
+}
