@@ -4,6 +4,7 @@ from django import http
 from django.core.paginator import Paginator, EmptyPage
 from django.shortcuts import render
 from django.utils import timezone
+from datetime import date
 from django.views import View
 
 from goods.models import GoodsCategory, SKU, GoodsVisitCount
@@ -20,7 +21,7 @@ class DetailVisitView(View):
         """记录分类商品访问量"""
         # 1.根据传入的 category_id 值, 获取对应类别的商品:
         try:
-            category = GoodsCategory.objects.get(id=category_id)
+            category = GoodsCategory.objects.get(id=category_id,date=date.today)
 
         except GoodsCategory.DoesNotExist:
             return http.HttpResponseForbidden('缺少必传参数')

@@ -605,7 +605,7 @@ class LoginView(View):
 
         # 3. 获取登录用户,并查看是否存在
         # 获取数据库信息对比
-        user = authenticate(username=username, password=password)
+        user = authenticate(request,username=username, password=password)
 
         if user is None:
             return render(request, 'login.html', {'account_errmsg': '用户名或密码错误'})
